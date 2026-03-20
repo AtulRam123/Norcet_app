@@ -1,0 +1,1029 @@
+[
+  {
+    "id": "918706f2",
+    "question": "Which drug is added with local anaesthetic to make it fast acting",
+    "options": {
+      "A": "Adrenaline",
+      "B": "Sodium bi carbonate",
+      "C": "Morphine",
+      "D": "Succinyl choline"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "fe66b4e3",
+    "question": "If there is lesion between anterior pituitary and hypothalamus then what effect will be manifested on the level of hormones?",
+    "options": {
+      "A": "Increase growth hormone",
+      "B": "Increase ACTH",
+      "C": "Increase TSH",
+      "D": "Increase prolactin"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "20b2d641",
+    "question": "What is correct gestational age of a baby born at 32 week of gestation who is currently 10 week old?",
+    "options": {
+      "A": "2 week",
+      "B": "4 week",
+      "C": "6 week",
+      "D": "8 week"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "235cf656",
+    "question": "Most common adverse effects of digoxin",
+    "options": {
+      "A": "Nausea, vomiting",
+      "B": "Ventricular arrhythmias",
+      "C": "Gynaecomastia",
+      "D": "Xanthopsia"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "9585a197",
+    "question": "Most specific arrhythmias caused by digitalis",
+    "options": {
+      "A": "Atrial flutter",
+      "B": "Mobitz type 2 heart block",
+      "C": "Ventricular bigeminy",
+      "D": "Npat with Av block"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "5d640b91",
+    "question": "Doc for digitalis induce arrhythmias",
+    "options": {
+      "A": "Lignocaine",
+      "B": "Qunidine",
+      "C": "Verapamil",
+      "D": "Thiazide"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "f52318cb",
+    "question": "Doc in pregnancy in first trimester of pregnancy in case hyperthyroidism ?",
+    "options": {
+      "A": "Perchlorate",
+      "B": "Thiocyanate",
+      "C": "Propylthiouracil",
+      "D": "Carbimazol"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "42516a5e",
+    "question": "Which drug can be use in diabetis mellitus as well as in diabetis insipidus??",
+    "options": {
+      "A": "Nateglinide",
+      "B": "Merformin",
+      "C": "Chlorpropamide",
+      "D": "Tolbutamide"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "aaa61c92",
+    "question": "Doc for Parkinsonism?",
+    "options": {
+      "A": "Levodopa",
+      "B": "Ropinirole",
+      "C": "Benzhexlol",
+      "D": "Procyclidine"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "dee1df16",
+    "question": "Maximum metabolic side-effects of antipsychotic drug",
+    "options": {
+      "A": "Haloperidol",
+      "B": "Olenzapine",
+      "C": "Clozapine",
+      "D": "Ziprasidone"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "124e109b",
+    "question": "Maximum endocrine side effects of antipsychotic drug",
+    "options": {
+      "A": "Haloperidol",
+      "B": "Olenzapine",
+      "C": "Clozapine",
+      "D": "Ziprasidone"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "68113674",
+    "question": "Maximum EPS side-effects of antipsychotic drug",
+    "options": {
+      "A": "Haloperidol",
+      "B": "Clozapine",
+      "C": "Ariprarazole",
+      "D": "Olenzapine"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "ea28b55a",
+    "question": "Longest acting antipsychotic drug",
+    "options": {
+      "A": "Loxapine",
+      "B": "Penfluridol",
+      "C": "Ziprasidone",
+      "D": "Quetiapine"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "34447ebd",
+    "question": "Antipsychotic drug which have antisucidal property ]",
+    "options": {
+      "A": "Haloperidol",
+      "B": "Chlorpromazine",
+      "C": "Clozapine",
+      "D": "Thioridazine"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "41786b30",
+    "question": "All are bipolar disorder except",
+    "options": {
+      "A": "Mania & depression",
+      "B": "Only mania",
+      "C": "Mania and anxiety",
+      "D": "Depression"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "f6d135f9",
+    "question": "In normal pregnancy character of vagins is",
+    "options": {
+      "A": "Increase glycogen",
+      "B": "Increase ph",
+      "C": "Increase number of Lactobacilli",
+      "D": "Increase number of pathogenic bacteria"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "10e86e90",
+    "question": "of Cerebral palsy manifested in neonatal jaundice ]",
+    "options": {
+      "A": "Spastic",
+      "B": "Dyskinetic",
+      "C": "Ataxic",
+      "D": "Mixed Cerebral palsy"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "65aa1294",
+    "question": "Which antidepressants have withdrawal symptoms??",
+    "options": {
+      "A": "Tca",
+      "B": "- Ssri",
+      "C": "- Maoi",
+      "D": "- None of them"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "7866b45d",
+    "question": "First approved antidepressant drug",
+    "options": {
+      "A": "Tca",
+      "B": "Ssri",
+      "C": "Maoi",
+      "D": "Bupropione"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "39111534",
+    "question": "While the nurse is administering medications to a client, the client states \"I do not want to take that medicine today.\" Which of the following responses by the nurse would be best?",
+    "options": {
+      "A": "\"That's OK, its all right to skip your medication now and then.\"",
+      "B": "\"I will have to call your doctor and report this.\"",
+      "C": "\"Is there a reason why you don't want to take your medicine?\"",
+      "D": "\"Do you understand the consequences of refusing your prescribed treatment?"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "75291b62",
+    "question": "When teaching effective stress management techniques to a client 1 hour before surgery, which of the following should the nurse recommend?",
+    "options": {
+      "A": "Biofeedback",
+      "B": "Deep breathing",
+      "C": "Distraction",
+      "D": "Imagery"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "9c40f121",
+    "question": "The nurse has been teaching a client with congestive heart failure about proper nutrition. Which of these lunch selections indicates the client has learned about sodium restriction?",
+    "options": {
+      "A": "Cheese sandwich with a glass of 2% milk",
+      "B": "Sliced turkey sandwich and canned pineapple",
+      "C": "Cheeseburger and baked potato",
+      "D": "Mushroom pizza and ice cream"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "1516ce73",
+    "question": "While caring for a client, the nurse notes a pulsating mass in the client's periumbilical area. Which of the following assessments is appropriate for the nurse to perform?",
+    "options": {
+      "A": "Measure the length of the mass",
+      "B": "Auscultate the mass",
+      "C": "Percuss the mass",
+      "D": "Palpate the mass"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "a760d370",
+    "question": "A client with congestive heart failure is newly admitted to home health care. The nurse discovers that the client has not been following the prescribed diet. What would be the most appropriate nursing action?",
+    "options": {
+      "A": "Discharge the client from home health care because of noncompliance",
+      "B": "Notify the provider of the client's failure to follow prescribed diet",
+      "C": "Discuss diet with the client to learn the reasons for not following the diet",
+      "D": "Make a referral to Meals-on-Wheels"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "77c339d4",
+    "question": "A patient is diagnosed with schizophrenia paranoid type and is admitted to the psychiatric unit. Which of the following nursing interventions would be most appropriate?",
+    "options": {
+      "A": "Establishing a non-demanding relationship",
+      "B": "Encouraging involvement in group activities",
+      "C": "Spending more time with Ramsay",
+      "D": "Waiting until Ramsay initiates interaction"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "0f0c0220",
+    "question": "The family of a schizophrenic client asks the nurse if there is a genetic cause of this disorder. To answer the family, which fact would the nurse cite?",
+    "options": {
+      "A": "Conclusive evidence indicates a specific gene transmits the disorder",
+      "B": "Incidence of this disorder is variable in all families",
+      "C": "There is a little evidence that genes play a role in transmission",
+      "D": "Genetic factors can increase the vulnerability for this disorder"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "ffd7a50a",
+    "question": "Patient has a diagnosis of schizophrenia with negative symptoms. In planning care for the client, the nurse would anticipate a problem with:",
+    "options": {
+      "A": "Auditory hallucinations",
+      "B": "Bizarre behaviors",
+      "C": "Ideas of reference",
+      "D": "Motivation for activities."
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "32138d18",
+    "question": "A 82-year-old patient together with his daughter arrived at the hospital for diagnostic confirmation and management of probable delirium. Which statement by the client’s daughter best supports the diagnosis?",
+    "options": {
+      "A": "“Maybe it’s just caused by aging. This usually happens by age 82.”",
+      "B": "“The changes in his behavior came on so quickly! I wasn’t sure what was",
+      "C": "happening.”",
+      "D": "“Dad just didn’t seem to know what he was doing. He would forget what he had for breakfast.”"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "7b21bad7",
+    "question": "What are the maintenance fluid requirements per hour for a 25-Kg child?",
+    "options": {
+      "A": "34 ml/h",
+      "B": "45 ml/h",
+      "C": "55 ml/h",
+      "D": "65 ml/h"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "30783a45",
+    "question": "The natural probiotic activity of breast milk is due to activity of:",
+    "options": {
+      "A": "Lactobacillus",
+      "B": "Saccharomyces boulardii",
+      "C": "Bifido bacterium",
+      "D": "Bacillus cereus"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "cc64de0a",
+    "question": "A 2-day-old new born baby comes to paediatric clinic with her mother. During the examination the nurse assesses white, curd like patches on the newborn’s oral mucosal membrane. The mother of the newborn states that she is bottle-feeding her newborn. Which of the following action should be taken by the nurse?",
+    "options": {
+      "A": "Remind the caregiver not to let the newborn sleep with the bottle",
+      "B": "Determine the newborn’s blood glucose level",
+      "C": "Explain that the new born will need to receive some medication",
+      "D": "Suggest that the newborn’s formula be changed"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "168e507e",
+    "question": "An infant who is 3 months of age accompanies the parents to the paediatric seasonal flu OPD. On examination, the child does not have a fever. Can the nurse give influenza vaccine to the child?",
+    "options": {
+      "A": "Yes, because then the child won’t get sick later",
+      "B": "Yes, if regular immunization are up to date",
+      "C": "No, because it would interfere with regular immunization",
+      "D": "No, because the child does not meet criteria"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "b29b6799",
+    "question": "All of the following bones are of adult size at birth; except",
+    "options": {
+      "A": "Hyoid",
+      "B": "Malleus",
+      "C": "Incus",
+      "D": "Steps"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "3f47c273",
+    "question": "An infant is brought to the paediatrician’s office for a well-baby visit. During the examination, congenital Subluxation of the left hip is suspected. The nurse would expect to see which of the following?",
+    "options": {
+      "A": "Planter flexion of the foot",
+      "B": "Lengthening of the limb on affected",
+      "C": "Deformities of the foot and ankle",
+      "D": "Asymmetry of the gluteal and thigh folds"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "7b2694fc",
+    "question": "The nurse creates a plan of care for a child at risk for tonic-clonic seizures. In the plan of care, the nurse identifies seizure precautions and documents that which item(s) need to be placed at the child’s bedside?",
+    "options": {
+      "A": "Emergency cart",
+      "B": "Tracheotomy set",
+      "C": "Padded tongue blade",
+      "D": "Suctioning equipment and oxygen"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "687402e6",
+    "question": "The radiological sign seen below is suggestive of a disease, whose clinical hallmark is:",
+    "options": {
+      "A": "Abdominal distension",
+      "B": "Bilious vomiting",
+      "C": "Constipation",
+      "D": "Jaundice"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "363d8f38",
+    "question": "Child's parents were told that their daughter needs ribavirin (Virazole)drug is used to treat which of the following?",
+    "options": {
+      "A": "Cystic fibrosis",
+      "B": "Otitis media",
+      "C": "Respiratory syncytial virus (RSV)",
+      "D": "Bronchitis"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "bc7eb6d0",
+    "question": "A 2-year-old child is placed in Bryant traction for treatment of a fractured femur. The nurse develops a plan of care for the child. Which of the following is NOT a component of the plan?",
+    "options": {
+      "A": "Place the child in a supine position",
+      "B": "Place the child supine with legs flexed slightly less than 90 degrees",
+      "C": "Ensure that the sacrum is resting on the mattress",
+      "D": "Ensure that use of a footplate to keep the traction straps away from child's ankles"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "14d7bad9",
+    "question": "Clinical manifestations seen in left-sided rather than in right-sided heart failure are:",
+    "options": {
+      "A": "Elevated central venous pressure and peripheral edema",
+      "B": "Dyspnoea and jaundice",
+      "C": "Hypotension and hepatomegaly",
+      "D": "Decreased peripheral perfusion and rales"
+    },
+    "answer": "D",
+    "image": "images/q_0001.png",
+    "explanation": null
+  },
+  {
+    "id": "4787c6ef",
+    "question": "Identify image instrument",
+    "options": {
+      "A": "Glucometer",
+      "B": "CGM meter",
+      "C": "Invesive Glucometer",
+      "D": "Automatic insulin delivery device"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "3746232d",
+    "question": "Magnta tongue",
+    "options": {
+      "A": "Strawberry tongue",
+      "B": "Black hairy tongue",
+      "C": "Geographic tongue",
+      "D": ""
+    },
+    "answer": null,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "ca1fcac2",
+    "question": "Which of the following disease is associated with this condition?",
+    "options": {
+      "A": "Turner’s syndrome",
+      "B": "Edward syndrome",
+      "C": "Patau’s syndrome",
+      "D": "Down’s syndrome"
+    },
+    "answer": "C",
+    "image": "images/q_0005.png",
+    "explanation": null
+  },
+  {
+    "id": "fe661fc3",
+    "question": "A 12-year-old boy with haemophilia A has slipped on the ice and bumped his knee and comes to paediatric emergency unit. The nurse should prepare to administer which prescription?",
+    "options": {
+      "A": "IV infusion of factor VIII",
+      "B": "Injection of factor X",
+      "C": "IV infusion of Iron",
+      "D": "IM injection of iron using the Z-track method"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "589390f4",
+    "question": "The false statement regarding the method shown in the image is",
+    "options": {
+      "A": "Early home discharge in kangaroo",
+      "B": "Exclusive breastfeeding",
+      "C": "Skin to skin contact",
+      "D": "Can be continued in babies > 2500 g also"
+    },
+    "answer": "D",
+    "image": "images/q_0006.png",
+    "explanation": null
+  },
+  {
+    "id": "17b784af",
+    "question": "Compression: Breath ratio should ideally be 30:2",
+    "options": {
+      "A": "Finger should be lifted off the chest to allow effective recoil between compressions",
+      "B": "Efficiency of chest compression should be assessed with brachial pulse periodically",
+      "C": "Alternatively, the two-thumb technique is equally effective.",
+      "D": ""
+    },
+    "answer": null,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "993af65c",
+    "question": "Identify the chromosomal abnormalities associated with the below depicted phenotype: (Genetic disorder)",
+    "options": {
+      "A": "Chromosome 8",
+      "B": "Chromosome 13",
+      "C": "Chromosome 18",
+      "D": "Chromosome 21"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "0dfb902e",
+    "question": "Chromosome 8",
+    "options": {
+      "A": "Chromosome 13",
+      "B": "Chromosome 18",
+      "C": "Chromosome 21",
+      "D": ""
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "675aac22",
+    "question": "A 4-month-old infant with Tetralogy of fallot presents with fever and loose stools. Which of the following is compatible with diagnosis of tetralogy spells?",
+    "options": {
+      "A": "Inability to hear a murmur",
+      "B": "Hepatomegaly",
+      "C": "S3 gallop rhythm",
+      "D": "saturation <75% in room air"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "81fbdde5",
+    "question": "Pseudomonas aeruginosa",
+    "options": {
+      "A": "Streptococcus pneumoniae",
+      "B": "Neisseria meningitidis",
+      "C": "E. coli",
+      "D": ""
+    },
+    "answer": null,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "67db04f5",
+    "question": "A 4-day-old neonate is under phototherapy in NICU. The child has shrill cry with neck retraction. Diagnosis is:",
+    "options": {
+      "A": "Kernicterus",
+      "B": "Tetanus",
+      "C": "Erbs’ palsy",
+      "D": "Tetany"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "6c8349cc",
+    "question": "45",
+    "options": {
+      "A": "50",
+      "B": "55",
+      "C": "60",
+      "D": "Identify the highlighted part of a given below image?"
+    },
+    "answer": "A",
+    "image": "images/q_0011.png",
+    "explanation": null
+  },
+  {
+    "id": "6ca9a172",
+    "question": "Heimlich valve",
+    "options": {
+      "A": "Flow regulator",
+      "B": "Sampling extractor",
+      "C": "Corrugated drain sheet",
+      "D": ""
+    },
+    "answer": null,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "56745e85",
+    "question": "Patient is receiving continuous salbutamol nebulization therapy. What should a nurse assess for?",
+    "options": {
+      "A": "S. calcium",
+      "B": "S. potassium",
+      "C": "S. magnesium",
+      "D": "S. sodium"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "90c14f01",
+    "question": "A client takes warfarin (Coumadin) 15 mg po daily. To evaluate the medication’s effectiveness, the nurse should monitor the:",
+    "options": {
+      "A": "Prothrombin time (pt)",
+      "B": "Partial thromboplastin time (ptt)",
+      "C": "Fibrin split products",
+      "D": "Ptt-c"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "ef5131a1",
+    "question": "A client who is receiving streptokinase therapy suddenly had a nose bleeding. The nurse ensures the availability in which of the following medication?",
+    "options": {
+      "A": "Aminocarproic acid",
+      "B": "Diphenhydramine",
+      "C": "Vitamin K",
+      "D": "Deferoxamine"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "9aabf907",
+    "question": "The client is admitted to the hospital with hypertensive crises. Diazoxide (Hyperstat) is ordered. During administration, the nurse should:",
+    "options": {
+      "A": "Place the client in Trendelenburg position",
+      "B": "Utilize an infusion pump",
+      "C": "Cover the solution with foil",
+      "D": "Check the blood glucose level"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "54739db9",
+    "question": "A patient was taking theophylline for bronchial asthma. After starting another drug, symptoms of theophylline toxicity started appearing. Which is the likely drug started?",
+    "options": {
+      "A": "Erythromycin",
+      "B": "Phenytoin",
+      "C": "Griseofulvin",
+      "D": "Rifampicin"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "41fa274d",
+    "question": "Which of the following is drug of choice in the condition given above?",
+    "options": {
+      "A": "Propylthiouracil",
+      "B": "KI",
+      "C": "Methimazole",
+      "D": "Thiocyanate"
+    },
+    "answer": null,
+    "image": "images/q_0012.png",
+    "explanation": null
+  },
+  {
+    "id": "24c7aa71",
+    "question": "Propylthiouracil",
+    "options": {
+      "A": "KI",
+      "B": "Methimazole",
+      "C": "Thiocyanate",
+      "D": ""
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "f03a5761",
+    "question": "Decreased the deposition of drug on the oropharynx",
+    "options": {
+      "A": "b. Increase the delivery of drug to lower airways",
+      "B": "c. Increase the incidence of oropharyngeal candidiasis",
+      "C": "d. Decrease the systemic absorption of drugs",
+      "D": ""
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "1149c6b8",
+    "question": "For the prevention of human rabies, immediate flushing and washing the wound (s) in animal bite cases, with plenty of soap and water, under running tab should be carried out for how much time?",
+    "options": {
+      "A": "2 minutes",
+      "B": "1 minutes",
+      "C": "15 minutes",
+      "D": "5 minutes"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "9796dabc",
+    "question": "washing to prevent nosocomial infection is an example of",
+    "options": {
+      "A": "Primordial prevention",
+      "B": "Primary prevention",
+      "C": "Secondary prevention",
+      "D": "Tertiary prevention"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "11d7aef8",
+    "question": "The nurse is speaking at a community meeting about personal responsibility for health promotion. A participant asks about chiropractic treatment for illnesses. What should be the focus of the nurse’s response?",
+    "options": {
+      "A": "Electrical energy fields",
+      "B": "Exercise of joints",
+      "C": "Spinal column manipulation",
+      "D": "Mind-body balance"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "dc36405c",
+    "question": "Program for Improve quality of labor room come under:",
+    "options": {
+      "A": "LaQshya",
+      "B": "Ayushman Bharat",
+      "C": "Jannani sishu suraksha Yojana",
+      "D": "PM Surakshit Matrita Abhiyaan"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "780405d6",
+    "question": "Nursing care in a hospital for a duration more than 24 hours is defined as:",
+    "options": {
+      "A": "Outpatient care",
+      "B": "Inpatient care",
+      "C": "Observation status patient",
+      "D": "Emergency care"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "fdd67327",
+    "question": "A patient in the cardiac unit is concerned about the risk factors associated with atherosclerosis. Which of the following are hereditary risk factors for developing atherosclerosis?",
+    "options": {
+      "A": "Overweight",
+      "B": "Smoking",
+      "C": "Family history of heart disease",
+      "D": "Age"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "89662da2",
+    "question": "A child was brought to the emergency department with complaints of nausea, vomiting, fruity-scented breath. The resident on duty diagnosed the child with diabetes ketoacidosis. Which of the following should the nurse expect to administer?",
+    "options": {
+      "A": "Ringer’s Lactate",
+      "B": "Dextrose 5% IV infusion",
+      "C": "Normal saline IV infusion",
+      "D": "Potassium chloride IV infusion"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "52f9857d",
+    "question": "Baby Jonathan was born with cleft lip (CL); Nurse Barbara would be alert that which of the following will most likely be compromised?",
+    "options": {
+      "A": "Locomotion",
+      "B": "GI function",
+      "C": "Respiratory status",
+      "D": "Sucking ability"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "563e45cb",
+    "question": "Which of the following disorders leads to cyanosis from deoxygenated blood entering the systemic arterial circulation",
+    "options": {
+      "A": "Patent ductus arteriosus",
+      "B": "Aortic stenosis (AS)",
+      "C": "Tetralogy of Fallot",
+      "D": "Coarctation of aorta"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "eb1dd7e3",
+    "question": "Nicklaus was born with hypospadias; which of the following should be avoided when a child has such condition?",
+    "options": {
+      "A": "Surgery",
+      "B": "Circumcision",
+      "C": "Intravenous pyelography (IVP)",
+      "D": "Catheterization"
+    },
+    "answer": "B",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "9e3c4250",
+    "question": "Spina bifida is one of the possible neural tube defects that can occur during early embryological development. Which of the following definitions most accurately describes Meningocele?",
+    "options": {
+      "A": "Complete exposure of spinal cord and Meninges",
+      "B": "Herniation of spinal cord and meninges into a sac",
+      "C": "Sac formation containing meninges and spinal fluid",
+      "D": "Spinal cord tumor containing nerve roots"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "6e896c25",
+    "question": "Priyanka is administering medication via the intraosseous route to a child. Intraosseous drug administration is typically used when a child is",
+    "options": {
+      "A": "Under age 3",
+      "B": "Critically ill and over age 3",
+      "C": "Critically ill and under age 3",
+      "D": "Over age 3"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "62565b76",
+    "question": "__________ is the condition in women which gives them a feeling of something coming out from vagina:",
+    "options": {
+      "A": "Disc prolapse",
+      "B": "Rectal prolapse",
+      "C": "Cord prolapse",
+      "D": "Uterine prolapse"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "cbb1db88",
+    "question": "The settling of fetal head into the brim of the pelvis is called:",
+    "options": {
+      "A": "Crowning of head",
+      "B": "Engagement",
+      "C": "Lightening",
+      "D": "Descent"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "e8596955",
+    "question": "A client with left ventricular heart failure is taking digoxin 0.25mg daily. What changes does the nurse expect to find if this medication is therapeutically effective",
+    "options": {
+      "A": "Tachycardia",
+      "B": "Jugular vein distention",
+      "C": "Reduced heart murmur",
+      "D": "Decreased edema"
+    },
+    "answer": "D",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "565db4b8",
+    "question": "A client has a hypoglycemic reaction to insulin. Which client responses should the nurse document as clinical manifestations of hypoglycemia ]",
+    "options": {
+      "A": "Glycosuria",
+      "B": "Acetonuria",
+      "C": "Tachycardia",
+      "D": "cold skin"
+    },
+    "answer": "C",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "7e94b58d",
+    "question": "The newborn maturity rating scale is assessed by?",
+    "options": {
+      "A": "New Ballard Score",
+      "B": "Apgar score",
+      "C": "Chandler score",
+      "D": "Olliander score"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "d6e4ab5e",
+    "question": "As an Indian medical intern, which of the following is the correct format for prescription of alprazolam?",
+    "options": {
+      "A": "Tablet alprazolam 0.5 mg once a day before bed time for 7 days",
+      "B": "Tablet alprazolam 0.5 mg HS for 7 day",
+      "C": "Tablet alprazolam 500 mcg one tablet OD for 7 days",
+      "D": "Tablet alprazolam ½ mg tablet HS daily"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "3ccf97f9",
+    "question": "A patient had symptoms of redness and photophobia. On examination, cells were present in anterior chamber with keratic precipitates. Intraocular pressure was measured to be 38 mm Hg. Which of the following anti-glaucoma drug should be avoided?",
+    "options": {
+      "A": "Pg analogue",
+      "B": "Beta blockers",
+      "C": "Mannitol",
+      "D": "Carbonic Anhydrase inhibitors"
+    },
+    "answer": "A",
+    "image": null,
+    "explanation": null
+  }
+]
