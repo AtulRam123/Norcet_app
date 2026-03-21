@@ -599,15 +599,15 @@
   },
   {
     "id": "0dfb902e",
-    "question": "Chromosome 8",
+    "question": "Identify the chromosomal abnormalities associated with the below depicted phenotype: (Genetic disorder)",
     "options": {
       "A": "Chromosome 13",
       "B": "Chromosome 18",
       "C": "Chromosome 21",
-      "D": ""
+      "D": "Chromosome 8"
     },
     "answer": "C",
-    "image": null,
+    "image": "images/q_0008.png",
     "explanation": "Chromosome 21 is associated with Down syndrome, a genetic disorder that affects physical growth and intellectual development. The presence of an extra copy of chromosome 21 (trisomy 21) is the primary cause of Down syndrome. This is why chromosome 21 is linked to this condition."
   },
   {
@@ -651,12 +651,12 @@
   },
   {
     "id": "6c8349cc",
-    "question": "45",
+    "question": "Identify the highlighted part of a given below image?",
     "options": {
       "A": "50",
       "B": "55",
       "C": "60",
-      "D": "Identify the highlighted part of a given below image?"
+      "D": "45"
     },
     "answer": "A",
     "image": "images/q_0011.png",
