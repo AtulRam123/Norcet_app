@@ -404,7 +404,7 @@ body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--text);
   display:flex;align-items:center;justify-content:center;border:2px solid var(--bg)}
 
 /* ── PAGE CONTENT ── */
-.page{position:relative;z-index:2;padding:36px 26px 90px;max-width:1140px;margin:0 auto;width:100%}
+.page{position:relative;z-index:2;padding:36px 48px 90px;max-width:960px;margin:0 auto;width:100%}
 
 /* ── MODAL / OVERLAY ── */
 .overlay{position:fixed;inset:0;z-index:600;background:rgba(240,220,230,.75);
@@ -504,7 +504,7 @@ body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--text);
 .start-fab:active{transform:scale(.97)}
 
 /* ── STAT GRID ── */
-.stat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:12px;margin-bottom:22px}
+.stat-grid{display:grid!important;grid-template-columns:repeat(6,1fr)!important;gap:14px;margin-bottom:22px}
 .sc{background:var(--card);border:1.5px solid var(--b1);border-radius:var(--r3);
   padding:18px 16px;position:relative;overflow:hidden;transition:all .22s;cursor:default;box-shadow:var(--shadow)}
 .sc:active{transform:scale(.98)}
@@ -538,7 +538,7 @@ body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--text);
 .btn-sec:active{background:var(--pink-light)}
 
 /* ── DASH GRID ── */
-.dgrid{display:grid;grid-template-columns:1fr 1.1fr;gap:18px}
+.dgrid{display:grid!important;grid-template-columns:1fr 1.1fr;gap:18px}
 .panel{background:var(--card);border:1.5px solid var(--b1);border-radius:var(--r3);padding:20px 18px;box-shadow:var(--shadow)}
 .panel+.panel{margin-top:18px}
 .ptitle{font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
@@ -904,63 +904,131 @@ body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--text);
   .ss .v{font-size:1.4rem}
 }
 
-/* ── MOBILE DASHBOARD EXTRAS ── */
+/* ── MOBILE DASHBOARD — clean & minimal ── */
+
+/* Hero card: greeting + love note combined */
+.mob-hero{
+  background:linear-gradient(135deg,rgba(232,96,138,.1),rgba(192,144,232,.08));
+  border:1.5px solid rgba(232,96,138,.15);
+  border-radius:20px;padding:18px 18px 16px;
+  margin-bottom:16px;position:relative;overflow:hidden;
+}
+.mob-hero::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--pink),var(--lavender))}
+.mob-hero-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.mob-greeting{font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;
+  background:linear-gradient(135deg,var(--text),var(--pink));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.mob-date{font-size:.65rem;color:var(--t3);font-weight:600}
+.mob-love{font-family:'Playfair Display',serif;font-size:.82rem;font-style:italic;
+  color:var(--pink2);line-height:1.55}
+.mob-hero-fab{
+  padding:10px 18px;border-radius:12px;border:none;
+  background:linear-gradient(135deg,var(--pink),var(--pink2));color:#fff;
+  font-family:'Nunito',sans-serif;font-size:.78rem;font-weight:700;
+  cursor:pointer;margin-top:14px;width:100%;
+  box-shadow:0 6px 18px rgba(232,96,138,.28);
+  -webkit-tap-highlight-color:transparent;touch-action:manipulation;
+}
+.mob-hero-fab:active{transform:scale(.98);opacity:.92}
+
+/* Stats strip — inline, no boxes */
+.mob-stats-strip{
+  display:flex;align-items:center;gap:0;
+  background:var(--card);border:1.5px solid var(--b1);
+  border-radius:16px;overflow:hidden;margin-bottom:14px;
+  box-shadow:0 4px 16px rgba(200,80,120,.07);
+}
+.mob-stat-item{
+  flex:1;padding:13px 8px;text-align:center;
+  border-right:1px solid var(--b1);
+}
+.mob-stat-item:last-child{border-right:none}
+.mob-stat-val{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;line-height:1}
+.mob-stat-lbl{font-size:.58rem;color:var(--t3);margin-top:3px;font-weight:600}
+
+/* Session resume — inline in hero, not separate box */
+.mob-sess-row{
+  display:flex;align-items:center;gap:10px;
+  background:rgba(48,180,160,.08);border:1px solid rgba(48,180,160,.2);
+  border-radius:12px;padding:10px 14px;margin-top:12px;
+}
+.mob-sess-row .st{font-size:.78rem;font-weight:700;color:var(--teal);flex:1}
+.mob-sess-row .ss2{font-size:.62rem;color:var(--t2)}
+.mob-sess-cont{padding:7px 13px;border-radius:9px;border:none;
+  background:var(--teal);color:#fff;font-family:'Nunito',sans-serif;
+  font-size:.7rem;font-weight:700;cursor:pointer;white-space:nowrap;
+  -webkit-tap-highlight-color:transparent}
+
+/* 2-button action row */
+.mob-actions{display:flex;gap:9px;margin-bottom:14px}
+.mob-action{flex:1;display:flex;align-items:center;gap:9px;
+  padding:13px 14px;border-radius:14px;border:1.5px solid var(--b1);
+  background:var(--card);cursor:pointer;font-family:'Nunito',sans-serif;
+  box-shadow:0 4px 14px rgba(200,80,120,.07);
+  -webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:all .18s}
+.mob-action:active{transform:scale(.97);opacity:.88}
+.mob-action-icon{font-size:1.3rem;flex-shrink:0}
+.mob-action-text .mal{font-size:.74rem;font-weight:700;color:var(--text)}
+.mob-action-text .mas{font-size:.6rem;color:var(--t3);margin-top:1px}
+
+/* Compact 7-day bars — no panel box, just bare */
+.mob-week{margin-bottom:4px}
+.mob-week-title{font-size:.6rem;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--t3);margin-bottom:10px;
+  display:flex;align-items:center;gap:8px}
+.mob-week-title::after{content:'';flex:1;height:1px;background:var(--b1)}
+.mob-week-row{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.mob-week-day{font-size:.6rem;color:var(--t2);min-width:22px;font-weight:700}
+.mob-week-bar{flex:1;height:5px;background:var(--bg3);border-radius:99px;overflow:hidden}
+.mob-week-fill{height:100%;border-radius:99px;transition:width 1.2s cubic-bezier(.22,.68,0,1)}
+.mob-week-pct{font-size:.6rem;color:var(--t2);min-width:24px;text-align:right;font-weight:600}
 
 /* Mood / motivation card (mob-only) */
-.mood-card{
-  background:linear-gradient(135deg,rgba(232,96,138,.12),rgba(192,144,232,.10));
-  border:1.5px solid rgba(232,96,138,.2);border-radius:20px;
+.mood-card{display:flex;align-items:center;gap:14px;
+  background:linear-gradient(135deg,rgba(232,96,138,.10),rgba(192,144,232,.08));
+  border:1.5px solid rgba(232,96,138,.18);border-radius:20px;
   padding:16px 18px;margin-bottom:14px;
-  display:flex;align-items:center;gap:14px;
-  position:relative;overflow:hidden;
-}
-.mood-card::after{content:'💗';position:absolute;right:14px;top:50%;
-  transform:translateY(-50%);font-size:2.8rem;opacity:.1;pointer-events:none}
-.mood-avatar{width:44px;height:44px;border-radius:14px;flex-shrink:0;
+  box-shadow:0 4px 18px rgba(200,80,120,.08)}
+.mood-avatar{width:52px;height:52px;border-radius:16px;flex-shrink:0;
   background:linear-gradient(135deg,var(--pink),var(--lavender));
-  display:flex;align-items:center;justify-content:center;font-size:1.4rem;
+  display:flex;align-items:center;justify-content:center;font-size:1.6rem;
   box-shadow:0 4px 14px rgba(232,96,138,.3)}
-.mood-text .mt{font-family:'Playfair Display',serif;font-size:.82rem;
-  font-style:italic;color:var(--pink2);line-height:1.5}
-.mood-text .ms{font-size:.65rem;color:var(--t3);margin-top:3px;font-weight:600}
-
-/* Quick action row (mob-only) */
-.quick-actions{display:flex;gap:9px;margin-bottom:14px}
-.qa-btn{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;
-  padding:12px 8px;border-radius:16px;border:1.5px solid var(--b1);
+.mood-text .mt{font-family:'Playfair Display',serif;font-size:.88rem;font-style:italic;
+  color:var(--pink2);line-height:1.55}
+.mood-text .ms{font-size:.72rem;color:var(--t2);margin-top:5px;font-weight:600}
+/* Quick action row */
+.quick-actions{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px}
+.qa-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:6px;padding:14px 8px;border-radius:16px;border:1.5px solid var(--b1);
   background:var(--card);cursor:pointer;font-family:'Nunito',sans-serif;
-  transition:all .18s;box-shadow:var(--shadow);-webkit-tap-highlight-color:transparent;
-  touch-action:manipulation}
+  box-shadow:0 4px 14px rgba(200,80,120,.07);
+  -webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:all .18s}
 .qa-btn:active{transform:scale(.95);opacity:.85}
+.qa-btn.primary-qa{background:linear-gradient(135deg,var(--pink),var(--pink2));border-color:transparent;
+  box-shadow:0 6px 20px rgba(232,96,138,.35)}
 .qa-icon{font-size:1.4rem}
 .qa-label{font-size:.62rem;font-weight:700;color:var(--t2)}
-.qa-btn.primary-qa{background:linear-gradient(135deg,var(--pink),var(--pink2));
-  border-color:transparent;box-shadow:0 6px 18px rgba(232,96,138,.3)}
-.qa-btn.primary-qa .qa-label{color:rgba(255,255,255,.9)}
-
-/* Mobile progress ring */
-.mob-progress-row{display:flex;gap:10px;margin-bottom:14px}
-.mob-prog-card{flex:1;background:var(--card);border:1.5px solid var(--b1);
-  border-radius:16px;padding:14px 12px;text-align:center;box-shadow:var(--shadow)}
+.qa-btn.primary-qa .qa-label{color:#fff}
+/* Mobile progress cards row */
+.mob-progress-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
+.mob-prog-card{background:var(--card);border:1.5px solid var(--b1);border-radius:16px;
+  padding:14px 10px;text-align:center;box-shadow:0 4px 14px rgba(200,80,120,.07)}
 .mob-prog-big{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;line-height:1}
-.mob-prog-lbl{font-size:.6rem;color:var(--t3);margin-top:3px;font-weight:600}
-.mob-prog-bar{height:4px;background:var(--bg3);border-radius:99px;
-  margin-top:8px;overflow:hidden}
+.mob-prog-lbl{font-size:.6rem;color:var(--t3);margin-top:4px;font-weight:600}
+.mob-prog-bar{height:3px;background:var(--bg3);border-radius:99px;overflow:hidden;margin-top:8px}
 .mob-prog-fill{height:100%;border-radius:99px;transition:width 1s cubic-bezier(.22,.68,0,1)}
-
-/* Session resume banner (mob-only) */
-.sess-banner{
-  background:linear-gradient(135deg,rgba(48,180,160,.1),rgba(232,160,48,.08));
-  border:1.5px solid rgba(48,180,160,.25);border-radius:16px;
-  padding:14px 16px;margin-bottom:14px;
-  display:flex;align-items:center;gap:12px;
-}
-.sess-banner-icon{font-size:1.5rem;flex-shrink:0}
-.sess-banner-text .st{font-size:.82rem;font-weight:700;color:var(--text)}
-.sess-banner-text .ss2{font-size:.68rem;color:var(--t2);margin-top:2px}
-.sess-banner-btn{margin-left:auto;padding:8px 14px;border-radius:10px;border:none;
+/* Session resume banner */
+.sess-banner{display:flex;align-items:center;gap:10px;
+  background:rgba(48,180,160,.08);border:1.5px solid rgba(48,180,160,.2);
+  border-radius:14px;padding:12px 14px;margin-bottom:12px}
+.sess-banner-icon{font-size:1.3rem;flex-shrink:0}
+.sess-banner-text{flex:1}
+.sess-banner-text .st{font-size:.78rem;font-weight:700;color:var(--teal)}
+.sess-banner-text .ss2{font-size:.62rem;color:var(--t2);margin-top:2px}
+.sess-banner-btn{padding:7px 13px;border-radius:9px;border:none;
   background:var(--teal);color:#fff;font-family:'Nunito',sans-serif;
-  font-size:.72rem;font-weight:700;cursor:pointer;white-space:nowrap;flex-shrink:0;
+  font-size:.7rem;font-weight:700;cursor:pointer;white-space:nowrap;
   -webkit-tap-highlight-color:transparent}
 
 /* Scrollbar */
@@ -1054,9 +1122,13 @@ export default function App() {
   const [wrongFilter,   setWrongFilter]  = useState("all");
   const [calDate,       setCalDate]      = useState(new Date());
   const [loveNote]                       = useState(() => rand(DAILY_NOTES));
+  const [localName,     setLocalName]    = useState("");
 
   // Close sidebar when tab changes
   useEffect(() => { setSidebarOpen(false); }, [tab]);
+
+  // Sync localName when modals open
+  useEffect(() => { if (showSetup || showSettings) setLocalName(userName); }, [showSetup, showSettings]);
 
   // Prevent body scroll when sidebar open
   useEffect(() => {
@@ -1067,9 +1139,14 @@ export default function App() {
   const freshCount  = allQ.filter(q => !att.has(q.id)).length;
   const presets     = getPresets(freshCount);
   const maxCount    = Math.min(Math.max(freshCount, wrongIds.size, 1), 100);
-  const [setupCount,  setSetupCount]  = useState(() => Math.min(30, Math.max(1, freshCount || 1)));
-  const [setupPreset, setSetupPreset] = useState(null);
+  const [setupCount,  setSetupCount]  = useState(10);
+  const [setupPreset, setSetupPreset] = useState(10);
   const [isMockMode,  setIsMockMode]  = useState(false);
+
+  // Reset to 10 every time setup modal opens
+  useEffect(() => {
+    if (showSetup) { const d = Math.min(10, maxCount); setSetupCount(d); setSetupPreset(d); }
+  }, [showSetup]);
 
   const handleSliderChange = useCallback((v) => {
     setSetupCount(v);
@@ -1379,6 +1456,7 @@ export default function App() {
       {showSetup && (
         <div className="overlay" onClick={e => e.target===e.currentTarget && setShowSetup(false)}>
           <div className="modal">
+            <button onClick={() => setShowSetup(false)} style={{position:"absolute",top:16,right:16,width:32,height:32,borderRadius:"50%",border:"1.5px solid var(--b2)",background:"var(--bg2)",color:"var(--t2)",fontSize:"1rem",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",zIndex:10}}>✕</button>
             <div className="modal-hd">
               <div className="modal-icon">💖</div>
               <h2>Start a Session</h2>
@@ -1390,7 +1468,7 @@ export default function App() {
             </div>
             {!settings.userName && (
               <><label className="field-label">Your Name</label>
-              <input className="text-input" placeholder="e.g. Priya 💕" value={userName} onChange={e => setUserName(e.target.value)}/></>
+              <input className="text-input" placeholder="e.g. Priya 💕" value={localName} onChange={e => setLocalName(e.target.value)}/></>
             )}
             {freshCount === 0 && (
               <div style={{display:"flex",flexDirection:"column",gap:10,marginBottom:20}}>
@@ -1436,7 +1514,7 @@ export default function App() {
                 </div>
                 <div className="avail-bar"><strong>{freshCount}</strong>&nbsp;fresh · {att.size} done · {totalQ} total</div>
                 <button className="go-btn"
-                  onClick={() => { if (userName) patchUnified({settings:{...settings,userName}}); startSession(setupCount,isMockMode); }}>
+                  onClick={() => { if (localName) patchUnified({settings:{...settings,userName:localName}}); startSession(setupCount,isMockMode); }}>
                   {isMockMode ? `Start ${setupCount}Q Mock Exam ⏱` : `Let's go! ${setupCount} questions 💪`}
                 </button>
               </>
@@ -1449,10 +1527,11 @@ export default function App() {
       {showSettings && (
         <div className="overlay" onClick={e => e.target===e.currentTarget && setShowSettings(false)}>
           <div className="modal">
+            <button onClick={() => setShowSettings(false)} style={{position:"absolute",top:16,right:16,width:32,height:32,borderRadius:"50%",border:"1.5px solid var(--b2)",background:"var(--bg2)",color:"var(--t2)",fontSize:"1rem",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",zIndex:10}}>✕</button>
             <div className="modal-hd"><div className="modal-icon">⚙️</div><h2>Settings</h2></div>
             <div className="set-row">
               <label className="set-lbl">Name</label>
-              <input className="text-input" placeholder="Enter name" value={userName} onChange={e => setUserName(e.target.value)}/>
+              <input className="text-input" placeholder="Enter name" value={localName} onChange={e => setLocalName(e.target.value)}/>
             </div>
             <div style={{display:"flex",gap:10,flexWrap:"wrap",marginBottom:22}}>
               {[{l:"Done",v:`${att.size}/${totalQ}`,c:"var(--pink)"},{l:"Accuracy",v:`${overallAcc}%`,c:"var(--teal)"},
@@ -1464,7 +1543,7 @@ export default function App() {
                 </div>
               ))}
             </div>
-            <button className="go-btn" style={{marginBottom:10}} onClick={() => { patchUnified({settings:{...settings,userName}}); setShowSettings(false); }}>Save 💕</button>
+            <button className="go-btn" style={{marginBottom:10}} onClick={() => { patchUnified({settings:{...settings,userName:localName}}); setShowSettings(false); }}>Save 💕</button>
             <div style={{borderTop:"1.5px solid var(--b1)",paddingTop:16,marginTop:4}}>
               <div style={{fontSize:".62rem",fontWeight:700,letterSpacing:".1em",textTransform:"uppercase",color:"var(--wrong)",marginBottom:10}}>Danger Zone</div>
               <button className="btn-danger" style={{width:"100%"}} onClick={handleReset}>🗑 Reset All Progress</button>
@@ -1566,7 +1645,7 @@ export default function App() {
           </div>
           <div className="greeting desktop-only">
             <div className="greeting-left">
-              <h1>{greetEmoji} {greetWord}{name1?`, ${name1}`:""} 💗</h1>
+              <h1><span style={{WebkitTextFillColor:"initial"}}>{greetEmoji}</span> {greetWord}{name1?`, ${name1}`:""} <span style={{WebkitTextFillColor:"initial"}}>💗</span></h1>
               <p>Your NORCET prep · {totalQ} questions · {freshCount} remaining</p>
             </div>
             <button className="start-fab" onClick={() => setShowSetup(true)}>+ New Session 💕</button>
@@ -1859,7 +1938,7 @@ export default function App() {
                 <div className="ptopbar">
                   <div className="p-qinfo">Q{sessIdx+1}/{sessTotal}</div>
                   <div className="p-track"><div className="p-fill" style={{width:`${sessPct}%`}}/></div>
-                  <div className="p-acc">{sessAcc>0?`${sessAcc}%`:"–"}</div>
+                  <div className="p-acc">{sessAcc>0?`${sessAcc}%`:"0%"}</div>
                 </div>
                 <div className="qcard" key={`${sessIdx}-${currentQ.id}`}>
                   <div className="qcard-top">
@@ -1909,7 +1988,7 @@ export default function App() {
                   <div className="ss vc"><div className="v">{sessCorrect}</div><div className="l">Correct</div></div>
                   <div className="ss vw"><div className="v">{sessWrong}</div><div className="l">Wrong</div></div>
                   <div className="ss"><div className="v" style={{color:"var(--text)"}}>{sessTotal-sessDone}</div><div className="l">Left</div></div>
-                  <div className="ss vt"><div className="v">{sessAcc>0?`${sessAcc}%`:"–"}</div><div className="l">Accuracy</div></div>
+                  <div className="ss vt"><div className="v">{sessAcc>0?`${sessAcc}%`:"0%"}</div><div className="l">Accuracy</div></div>
                 </div>
               </>
             )}

@@ -521,15 +521,15 @@
   },
   {
     "id": "3746232d",
-    "question": "Magnta tongue",
+    "question": "The image shows presence of:",
     "options": {
       "A": "Strawberry tongue",
       "B": "Black hairy tongue",
       "C": "Geographic tongue",
-      "D": ""
+      "D": "Magnta tongue"
     },
-    "answer": null,
-    "image": null,
+    "answer": "D",
+    "image": "images/q_0004.png",
     "explanation": null
   },
   {
@@ -573,15 +573,15 @@
   },
   {
     "id": "17b784af",
-    "question": "Compression: Breath ratio should ideally be 30:2",
+    "question": "Select the incorrect statement related to the pediatric emergency procedure being performed in the given image:",
     "options": {
-      "A": "Finger should be lifted off the chest to allow effective recoil between compressions",
-      "B": "Efficiency of chest compression should be assessed with brachial pulse periodically",
-      "C": "Alternatively, the two-thumb technique is equally effective.",
-      "D": ""
+      "A": "Compression: Breath ratio should ideally be 30:2",
+      "B": "Finger should be lifted off the chest to allow effective recoil between compressions",
+      "C": "Efficiency of chest compression should be assessed with brachial pulse periodically",
+      "D": "Alternatively, the two-thumb technique is equally effective."
     },
-    "answer": null,
-    "image": null,
+    "answer": "A",
+    "image": "images/q_0007.png",
     "explanation": null
   },
   {
@@ -625,15 +625,15 @@
   },
   {
     "id": "81fbdde5",
-    "question": "Pseudomonas aeruginosa",
+    "question": "A child develops septic shock following meningitis. On examination, child has petechial rash as shown in figure. Which of the following is a gram-negative diplococcus that can be likely etiology?",
     "options": {
       "A": "Streptococcus pneumoniae",
-      "B": "Neisseria meningitidis",
+      "B": "Pseudomonas aeruginosa",
       "C": "E. coli",
-      "D": ""
+      "D": "Neisseria meningitidis"
     },
-    "answer": null,
-    "image": null,
+    "answer": "C",
+    "image": "images/q_0009.png",
     "explanation": null
   },
   {
@@ -664,15 +664,15 @@
   },
   {
     "id": "6ca9a172",
-    "question": "Heimlich valve",
+    "question": "Identify the highlighted part of a given below image?",
     "options": {
       "A": "Flow regulator",
-      "B": "Sampling extractor",
+      "B": "Heimlich valve",
       "C": "Corrugated drain sheet",
-      "D": ""
+      "D": "Sampling extractor"
     },
-    "answer": null,
-    "image": null,
+    "answer": "A",
+    "image": "images/q_0011.png",
     "explanation": null
   },
   {
@@ -749,7 +749,7 @@
       "C": "Methimazole",
       "D": "Thiocyanate"
     },
-    "answer": null,
+    "answer": "C",
     "image": "images/q_0012.png",
     "explanation": null
   },
