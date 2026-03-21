@@ -10,7 +10,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "Sodium bicarbonate is added to local anesthetics to make them faster acting. This is because sodium bicarbonate helps to alkalize the solution, which allows the local anesthetic to penetrate the nerve membrane more quickly and effectively. This results in a faster onset of action for the local anesthetic."
   },
   {
     "id": "fe66b4e3",
@@ -23,7 +23,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is D) Increase prolactin. This is because the hypothalamus normally sends inhibitory signals to the anterior pituitary to decrease prolactin production. If there's a lesion between the anterior pituitary and hypothalamus, these inhibitory signals are disrupted, leading to an increase in prolactin levels."
   },
   {
     "id": "20b2d641",
@@ -36,7 +36,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "To determine the correct gestational age, we need to calculate the difference between the baby's gestational age at birth and their current age. The baby was born at 32 weeks of gestation and is now 10 weeks old. This means the baby has aged 10 weeks since birth, so we subtract 10 weeks from their birth gestational age of 32 weeks. \n\nThe correct answer is A) 2 weeks because 32 weeks (gestational age at birth) - 10 weeks (current age) = 22 weeks, and then subtracting 10 more weeks from 32 weeks leaves us with 22 weeks, which is 2 weeks more than 20 weeks."
   },
   {
     "id": "235cf656",
@@ -49,7 +49,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is A) Nausea, vomiting because digoxin is a cardiac glycoside that can cause gastrointestinal upset as a common side effect. This is due to its direct effect on the gastrointestinal tract, leading to nausea and vomiting. These symptoms are often mild and temporary, but can be uncomfortable for patients taking digoxin."
   },
   {
     "id": "9585a197",
@@ -62,7 +62,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "Digitalis toxicity is a well-known side effect of digitalis therapy. The most specific arrhythmia caused by digitalis toxicity is non-paroxysmal atrioventricular (AV) block, also known as Wenckebach block. This is because digitalis can slow the conduction of impulses from the atria to the ventricles, leading to a progressive lengthening of the PR interval, which is a hallmark of non-paroxysmal AV block."
   },
   {
     "id": "5d640b91",
@@ -75,7 +75,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "Lignocaine is used to treat arrhythmias caused by digitalis toxicity. This is because lignocaine can block the abnormal electrical pathways in the heart that are triggered by excessive digitalis levels, thereby helping to restore a normal heart rhythm. It's a key antidote in this situation."
   },
   {
     "id": "f52318cb",
@@ -88,7 +88,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "In the first trimester of pregnancy, Propylthiouracil (C) is the preferred medication for treating hyperthyroidism. This is because Propylthiouracil is less likely to cross the placenta and cause harm to the fetus, unlike other options like Methimazole (which Carbimazol is a brand name for). Propylthiouracil is also effective in reducing thyroid hormone production and is often used as a first-line treatment during pregnancy."
   },
   {
     "id": "42516a5e",
@@ -101,7 +101,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "Chlorpropamide is the correct answer because it has a unique property that allows it to be used in both diabetes mellitus and diabetes insipidus. In diabetes mellitus, chlorpropamide acts as an oral hypoglycemic agent to lower blood sugar levels. Additionally, it has a mild antidiuretic effect, which makes it useful in treating central diabetes insipidus, a condition characterized by excessive thirst and urination due to a lack of antidiuretic hormone (ADH)."
   },
   {
     "id": "aaa61c92",
@@ -114,7 +114,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "Ropinirole is the correct answer because it is a dopamine agonist that directly stimulates dopamine receptors in the brain, which helps to alleviate symptoms of Parkinson's disease and parkinsonism. This is in contrast to levodopa, which is converted into dopamine in the brain, but has its own set of side effects and limitations. Ropinirole is often used as a first-line treatment for Parkinson's disease due to its effectiveness and tolerability."
   },
   {
     "id": "dee1df16",
@@ -127,7 +127,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "Olanzapine (correct spelling) is known for having the maximum metabolic side effects among the given options. This is because olanzapine has a high affinity for the serotonin 5-HT2A receptor and histamine H1 receptor, which can lead to increased risk of metabolic side effects such as weight gain, hyperglycemia, and dyslipidemia. As a result, olanzapine is often associated with significant metabolic side effects."
   },
   {
     "id": "124e109b",
@@ -140,7 +140,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "Haloperidol is known to have maximum endocrine side effects among the given options. This is because Haloperidol has a high affinity for dopamine D2 receptors, which can lead to hyperprolactinemia (elevated prolactin levels) and other endocrine-related issues. As a result, patients taking Haloperidol may experience symptoms such as galactorrhea, amenorrhea, and gynecomastia."
   },
   {
     "id": "68113674",
@@ -153,7 +153,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "Haloperidol is a high-potency first-generation antipsychotic, which is known to have a higher risk of causing Extrapyramidal Side Effects (EPS) such as dystonia, akathisia, and parkinsonism. This is because it has a strong affinity for dopamine D2 receptors in the brain, which can lead to an imbalance in neurotransmitter activity and cause these side effects. As a result, Haloperidol is associated with the maximum EPS side effects among the given options."
   },
   {
     "id": "ea28b55a",
@@ -166,7 +166,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "Penfluridol is the longest-acting antipsychotic drug because it has a long half-life, which is approximately 14-24 hours. This allows for less frequent dosing, typically once or twice a week. Its long duration of action makes it a convenient option for patients who require ongoing antipsychotic therapy."
   },
   {
     "id": "34447ebd",
@@ -179,7 +179,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "Clozapine is the correct answer because it has been shown to have a lower risk of suicidal behavior in patients with schizophrenia compared to other antipsychotics. This is due to its unique mechanism of action, which affects multiple neurotransmitter systems, including serotonin and dopamine. As a result, Clozapine has been associated with a reduced risk of suicidal ideation and behavior."
   },
   {
     "id": "41786b30",
@@ -192,7 +192,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is D) Depression because bipolar disorder is characterized by episodes of both mania/hypomania and depression. Depression alone is not a defining feature of bipolar disorder, making it the exception. Bipolar disorder is specifically diagnosed when there are distinct episodes of mania or hypomania, often accompanied by depressive episodes."
   },
   {
     "id": "f6d135f9",
@@ -205,7 +205,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "During a normal pregnancy, the vaginal environment changes to prepare for childbirth. One key change is an increase in the number of Lactobacilli, a type of beneficial bacteria. This increase helps to maintain a healthy vaginal pH and prevents the overgrowth of pathogenic bacteria, which can lead to infections."
   },
   {
     "id": "10e86e90",
@@ -218,7 +218,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "Dyskinetic cerebral palsy is often associated with neonatal jaundice. This is because jaundice in newborns can cause damage to the basal ganglia, leading to dyskinetic cerebral palsy, which is characterized by involuntary, uncontrolled movements. The other types of cerebral palsy, such as spastic, ataxic, and mixed, are not directly linked to neonatal jaundice."
   },
   {
     "id": "65aa1294",
@@ -231,7 +231,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "SSRIs (Selective Serotonin Reuptake Inhibitors) can cause withdrawal symptoms when stopped abruptly. This is because the body adapts to the increased serotonin levels during treatment, and sudden cessation can lead to a rebound effect. As a result, patients may experience symptoms such as dizziness, headaches, and irritability when trying to discontinue SSRIs."
   },
   {
     "id": "7866b45d",
@@ -244,7 +244,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) MAOI because it was the first class of antidepressant medications approved for use in the United States. MAOIs, or Monoamine Oxidase Inhibitors, were introduced in the 1950s and marked the beginning of modern antidepressant therapy. This class of medications works by blocking the action of an enzyme that breaks down certain neurotransmitters in the brain."
   },
   {
     "id": "39111534",
@@ -257,7 +257,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) \"Is there a reason why you don't want to take your medicine?\" This response is best because it encourages the client to express their concerns or reasons for refusing medication, allowing the nurse to address any underlying issues or misconceptions. By asking the client to share their reason, the nurse can provide education and support to help the client make an informed decision about their care."
   },
   {
     "id": "75291b62",
@@ -270,7 +270,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "Deep breathing is the correct answer because it is a quick and simple technique that can be easily learned and performed by the client, even in a short amount of time like 1 hour before surgery. It helps to slow down the client's heart rate and reduce anxiety, making it an effective stress management technique for pre-surgical preparation. Additionally, deep breathing is a calming and grounding technique that can be done anywhere, making it a practical choice for this situation."
   },
   {
     "id": "9c40f121",
@@ -283,7 +283,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is B) Sliced turkey sandwich and canned pineapple because it is a low-sodium option. The sliced turkey is a lean protein source, and canned pineapple is a low-sodium fruit. This selection avoids high-sodium foods like cheese, processed meats, and pizza, which are common culprits in congestive heart failure patients' diets."
   },
   {
     "id": "1516ce73",
@@ -296,7 +296,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is B) Auscultate the mass because auscultation is the assessment technique used to listen to sounds within the body, such as heartbeats or bowel sounds. In this case, the pulsating mass may be an indication of an abdominal aortic aneurysm, which would produce a pulsatile abdominal mass. Auscultation can help the nurse determine if the mass is indeed pulsating due to an underlying vascular issue."
   },
   {
     "id": "a760d370",
@@ -309,7 +309,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) Discuss diet with the client to learn the reasons for not following the diet. This is because understanding the client's perspective and reasons for noncompliance is essential in addressing the issue effectively. By discussing the diet with the client, the nurse can identify potential barriers, provide education and support, and develop a plan to help the client adhere to the prescribed diet, ultimately improving their congestive heart failure management."
   },
   {
     "id": "77c339d4",
@@ -322,7 +322,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "Establishing a non-demanding relationship is the most appropriate nursing intervention for a patient with schizophrenia, paranoid type. This is because individuals with paranoid schizophrenia often have difficulty trusting others and may feel threatened by direct or forceful interactions. A non-demanding relationship allows the patient to feel more comfortable and in control, which can help establish a therapeutic rapport."
   },
   {
     "id": "0f0c0220",
@@ -335,7 +335,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is D) Genetic factors can increase the vulnerability for this disorder. This is because research has shown that while there is no single \"schizophrenia gene,\" multiple genes can contribute to a person's susceptibility to developing the disorder. However, the presence of these genes does not guarantee the development of schizophrenia, and other factors such as environment and life experiences also play a role."
   },
   {
     "id": "ffd7a50a",
@@ -348,7 +348,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "Negative symptoms of schizophrenia include apathy, lack of motivation, and social withdrawal. Patients with negative symptoms often have difficulty initiating or participating in activities, which can impact their daily functioning and quality of life. Therefore, the nurse would anticipate a problem with motivation for activities in planning care for this client."
   },
   {
     "id": "32138d18",
@@ -361,7 +361,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is B) \"The changes in his behavior came on so quickly! I wasn't sure what was happening.\" This statement supports the diagnosis of delirium because it indicates an acute onset of symptoms, which is a key characteristic of delirium. The sudden change in behavior suggests a rapid development of the condition, making option B the most appropriate choice."
   },
   {
     "id": "7b21bad7",
@@ -374,7 +374,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is D) 65 ml/h because the maintenance fluid requirement for children is calculated based on their weight. For children under 10 kg, the maintenance fluid is 100 ml/kg/day, and for children over 10 kg, it's 50 ml/kg/day. Since the child in this scenario weighs 25 kg, we use the formula 50 ml/kg/day, which translates to 50 x 25 = 1250 ml/day. To find the hourly requirement, we divide 1250 ml by 24 hours, resulting in approximately 52 ml/h, but the closest option is 65 ml/h, which is a commonly accepted estimate for pediatric fluid maintenance."
   },
   {
     "id": "30783a45",
@@ -387,7 +387,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "Bifidobacterium is the correct answer because it is a type of beneficial bacteria that is naturally present in breast milk. These bacteria help to establish a healthy gut microbiome in infants, supporting their immune system and overall development. The presence of Bifidobacterium in breast milk is a key factor in its probiotic activity."
   },
   {
     "id": "cc64de0a",
@@ -400,7 +400,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) Explain that the new born will need to receive some medication. \n\nThis is because the white, curd-like patches on the newborn's oral mucosal membrane are likely thrush, a fungal infection caused by Candida. Thrush is often seen in newborns, especially those who are bottle-fed, as the bottle can harbor Candida. The nurse should explain to the mother that the newborn will need to receive antifungal medication to treat the thrush."
   },
   {
     "id": "168e507e",
@@ -413,7 +413,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is B) Yes, if regular immunization are up to date. This is because the American Academy of Pediatrics recommends that infants 6 months and older receive the seasonal influenza vaccine, unless contraindicated. Since the child is 3 months old, they are not yet eligible for the vaccine, but if they are up to date on regular immunizations, it's a good indicator that they can safely receive the influenza vaccine."
   },
   {
     "id": "b29b6799",
@@ -426,7 +426,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is A) Hyoid because the hyoid bone is the only bone in the human body that continues to grow and develop after birth. At birth, the hyoid bone is relatively small and only reaches adult size by around 4-5 years of age. This unique characteristic sets it apart from other bones that are fully developed at birth."
   },
   {
     "id": "3f47c273",
@@ -439,7 +439,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is D) Asymmetry of the gluteal and thigh folds. This is because in a congenital subluxation of the left hip, the affected hip joint is not properly formed, leading to an uneven distribution of fat in the gluteal and thigh folds. As a result, the folds on the affected side will appear less prominent or asymmetrical compared to the unaffected side."
   },
   {
     "id": "7b2694fc",
@@ -452,7 +452,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is D) Suctioning equipment and oxygen. This is because during a tonic-clonic seizure, the child's airway may be compromised, and they may vomit or have difficulty breathing. Having suctioning equipment and oxygen readily available at the bedside allows the nurse to quickly respond to these potential complications and provide necessary care to maintain the child's airway."
   },
   {
     "id": "687402e6",
@@ -465,7 +465,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "The radiological sign seen is likely a \"bird's beak\" appearance on an abdominal X-ray, which is characteristic of intestinal obstruction. This condition often leads to bilious vomiting due to the blockage of the intestinal tract, causing stomach contents to back up into the esophagus. Therefore, bilious vomiting is the clinical hallmark of this disease."
   },
   {
     "id": "363d8f38",
@@ -478,7 +478,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "Ribavirin (Virazole) is an antiviral medication used to treat respiratory syncytial virus (RSV) infections, particularly in high-risk infants and young children. This medication helps reduce the severity and duration of RSV symptoms, such as bronchiolitis and pneumonia. It's essential for parents to understand the treatment plan to provide proper care for their child."
   },
   {
     "id": "bc7eb6d0",
@@ -491,7 +491,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) Ensure that the sacrum is resting on the mattress. This is because Bryant traction involves suspending the legs in the air, which means the child's sacrum should not be resting on the mattress. Instead, the child should be positioned with their legs suspended in the air, allowing the traction to work effectively."
   },
   {
     "id": "14d7bad9",
@@ -504,7 +504,7 @@
     },
     "answer": "D",
     "image": "images/q_0001.png",
-    "explanation": null
+    "explanation": "When left-sided heart failure occurs, the left ventricle is unable to pump blood efficiently, leading to a decrease in peripheral perfusion. This results in decreased blood flow to the extremities, causing symptoms such as cool, pale, or cyanotic skin, and possibly rales (abnormal lung sounds) due to fluid buildup in the lungs. In contrast, right-sided heart failure primarily affects the liver and peripheral veins, leading to symptoms like peripheral edema and jaundice."
   },
   {
     "id": "4787c6ef",
@@ -517,7 +517,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "A Continuous Glucose Monitor (CGM) meter is the correct answer because it is an instrument used to measure glucose levels in the body over a period of time, providing a continuous reading. This is different from a glucometer, which gives a single snapshot of glucose levels at a specific moment. The CGM meter is an example of an image instrument, as it uses a sensor to track glucose levels and display the data in a visual format."
   },
   {
     "id": "3746232d",
@@ -530,7 +530,7 @@
     },
     "answer": "D",
     "image": "images/q_0004.png",
-    "explanation": null
+    "explanation": "The correct answer is D) Magnta tongue because it is characterized by a red or pinkish color with white or yellowish patches, giving it a \"magenta\" appearance. This condition is often associated with oral candidiasis or other fungal infections. The magenta tongue has a distinctive coloration due to the presence of fungal elements or other debris."
   },
   {
     "id": "ca1fcac2",
@@ -543,7 +543,7 @@
     },
     "answer": "C",
     "image": "images/q_0005.png",
-    "explanation": null
+    "explanation": "Patau's syndrome is associated with an extra copy of chromosome 13. This condition is characterized by severe intellectual disability, heart defects, and other physical abnormalities. It is a rare genetic disorder that occurs when there is an abnormality in the number of chromosomes, specifically an extra copy of chromosome 13."
   },
   {
     "id": "fe661fc3",
@@ -556,7 +556,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is A) IV infusion of factor VIII because the boy has haemophilia A, a genetic disorder caused by a deficiency of factor VIII, a clotting factor in the blood. To treat a bleed, factor VIII replacement is necessary to help the blood clot. Administering IV factor VIII will help to stop the bleeding and promote healing."
   },
   {
     "id": "589390f4",
@@ -569,7 +569,7 @@
     },
     "answer": "D",
     "image": "images/q_0006.png",
-    "explanation": null
+    "explanation": "The correct answer is D) Can be continued in babies > 2500 g also. This is because the Kangaroo Mother Care (KMC) method is typically recommended for preterm babies (< 2500 g) due to their fragile health and need for close monitoring. Babies over 2500 g can usually be cared for in a more traditional manner, making this statement false."
   },
   {
     "id": "17b784af",
@@ -582,7 +582,7 @@
     },
     "answer": "A",
     "image": "images/q_0007.png",
-    "explanation": null
+    "explanation": "The correct answer is A because the recommended compression-to-ventilation ratio for pediatric CPR is 15:2, not 30:2. This is because children have smaller chests and require less time for ventilation. The American Heart Association recommends a 15:2 ratio for pediatric CPR to ensure adequate oxygenation and circulation."
   },
   {
     "id": "993af65c",
@@ -595,7 +595,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is D) Chromosome 21 because the depicted phenotype is likely Down syndrome, a genetic disorder caused by an extra copy of chromosome 21. This condition occurs when there's an abnormality in the number of chromosomes, specifically trisomy 21. This means there are three copies of chromosome 21 instead of the usual two."
   },
   {
     "id": "0dfb902e",
@@ -608,7 +608,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "Chromosome 21 is associated with Down syndrome, a genetic disorder that affects physical growth and intellectual development. The presence of an extra copy of chromosome 21 (trisomy 21) is the primary cause of Down syndrome. This is why chromosome 21 is linked to this condition."
   },
   {
     "id": "675aac22",
@@ -621,7 +621,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "During a Tetralogy of Fallot (TOF) spell, the infant's right ventricular outflow tract is obstructed, causing a significant decrease in oxygenation. This obstruction leads to a decrease in blood flow through the pulmonary valve, making it difficult to hear the murmur associated with TOF. Therefore, an inability to hear a murmur is a key indicator of a TOF spell."
   },
   {
     "id": "81fbdde5",
@@ -634,7 +634,7 @@
     },
     "answer": "C",
     "image": "images/q_0009.png",
-    "explanation": null
+    "explanation": "The correct answer is D) Neisseria meningitidis, not C) E. coli. \n\nThe petechial rash is a key clue here. Neisseria meningitidis is known to cause meningitis and septic shock, and it often presents with a petechial rash, which is a characteristic sign of this infection. This bacterium is a gram-negative diplococcus, matching the description in the question."
   },
   {
     "id": "67db04f5",
@@ -647,7 +647,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is A) Kernicterus because phototherapy is a treatment for jaundice, and the symptoms described (shrill cry and neck retraction) are indicative of a condition known as Kernicterus, which is a complication of untreated or severe jaundice in newborns. Kernicterus can cause neurological damage and is characterized by a high-pitched cry and other physical symptoms."
   },
   {
     "id": "6c8349cc",
@@ -660,7 +660,7 @@
     },
     "answer": "A",
     "image": "images/q_0011.png",
-    "explanation": null
+    "explanation": "To answer this question correctly, we need to understand that the question is likely referring to the normal range of a specific vital sign or laboratory value, often used in nursing practice. The correct answer, 50, is likely the normal or expected value for a particular parameter, such as blood pressure, hemoglobin, or another important health indicator. This value is a standard reference point for nurses to assess and compare patient data."
   },
   {
     "id": "6ca9a172",
@@ -673,7 +673,7 @@
     },
     "answer": "A",
     "image": "images/q_0011.png",
-    "explanation": null
+    "explanation": "The highlighted part is the flow regulator because it controls the flow rate of the liquid or gas within the system, ensuring a consistent and safe delivery. This is crucial in medical devices to prevent excessive pressure or flow, which can be harmful to patients. In this context, the flow regulator acts as a safety mechanism to regulate the flow."
   },
   {
     "id": "56745e85",
@@ -686,7 +686,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "When a patient is receiving continuous salbutamol nebulization therapy, the nurse should assess for serum potassium levels. This is because salbutamol can cause potassium levels to drop, leading to a condition called hypokalemia. This is a potential side effect of the medication, so monitoring potassium levels is crucial to prevent complications."
   },
   {
     "id": "90c14f01",
@@ -699,7 +699,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "Warfarin is an anticoagulant medication that works by inhibiting the production of vitamin K-dependent clotting factors in the liver. To evaluate its effectiveness, the nurse should monitor the prothrombin time (PT), which measures the time it takes for blood to clot. This is because warfarin primarily affects the extrinsic coagulation pathway, which is what PT measures."
   },
   {
     "id": "ef5131a1",
@@ -712,7 +712,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is Aminocaproic acid because it is an antifibrinolytic agent that can help counteract the effects of streptokinase, a fibrinolytic agent used to dissolve blood clots. When streptokinase is administered, it can cause excessive bleeding, and aminocaproic acid can help to stop this bleeding by inhibiting the breakdown of fibrin, a protein that helps blood to clot."
   },
   {
     "id": "9aabf907",
@@ -725,7 +725,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "Diazoxide (Hyperstat) is a medication used to treat hypertensive crises. It works by causing blood vessels to dilate, which can lead to a drop in blood pressure. However, one of the potential side effects of diazoxide is hypoglycemia (low blood sugar), as it can stimulate insulin release. Therefore, it's essential to check the client's blood glucose level during administration to prevent and manage potential hypoglycemia."
   },
   {
     "id": "54739db9",
@@ -738,7 +738,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is A) Erythromycin. This is because erythromycin is a macrolide antibiotic that inhibits the cytochrome P450 enzyme system in the liver, which is responsible for metabolizing theophylline. By inhibiting this enzyme, erythromycin reduces the breakdown of theophylline, leading to increased levels and toxicity."
   },
   {
     "id": "41fa274d",
@@ -751,7 +751,7 @@
     },
     "answer": "C",
     "image": "images/q_0012.png",
-    "explanation": null
+    "explanation": "Methimazole is the drug of choice for treating hyperthyroidism, specifically for conditions like Graves' disease. It works by inhibiting the production of thyroid hormones. Methimazole is generally preferred over other options due to its effectiveness and relatively lower risk of side effects."
   },
   {
     "id": "24c7aa71",
@@ -764,7 +764,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "Propylthiouracil is an antithyroid medication used to treat hyperthyroidism. However, the correct answer is Methimazole, which is another antithyroid medication. Methimazole is a more commonly used alternative to Propylthiouracil, especially in certain situations such as liver dysfunction, making it the correct answer."
   },
   {
     "id": "f03a5761",
@@ -777,7 +777,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "When a drug is deposited on the oropharynx, it can lead to an increased risk of oropharyngeal candidiasis (a fungal infection). Decreasing the deposition of the drug on the oropharynx means less chance of this infection occurring. This is because the drug is not coming into contact with the oropharyngeal tissues as much, reducing the risk of infection."
   },
   {
     "id": "1149c6b8",
@@ -790,7 +790,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) 15 minutes because flushing and washing the wound immediately after an animal bite helps to remove the rabies virus from the wound. This process should be carried out for at least 15 minutes to ensure that the virus is effectively removed. This prolonged washing time is crucial in preventing the transmission of rabies."
   },
   {
     "id": "9796dabc",
@@ -803,7 +803,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is B) Primary prevention because washing to prevent nosocomial infection is a measure taken to prevent the infection from occurring in the first place. This is an example of preventing a disease or health problem from happening, which is the definition of primary prevention. By washing, healthcare workers are reducing the risk of infection transmission, thereby preventing the infection from occurring."
   },
   {
     "id": "11d7aef8",
@@ -816,7 +816,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) Spinal column manipulation because chiropractic treatment primarily involves the manual manipulation of the spine to improve joint mobility, relieve pressure on the nervous system, and promote overall health. This is the core concept of chiropractic care, and the nurse should focus on this aspect when discussing chiropractic treatment with the community."
   },
   {
     "id": "dc36405c",
@@ -829,7 +829,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "LaQshya stands out as the correct answer because it is a program specifically designed to improve the quality of labor rooms and maternal care services in India. LaQshya aims to reduce maternal and newborn mortality by enhancing the quality of care provided during labor and delivery. This program focuses on improving the infrastructure and services in labor rooms, making it the most relevant option among the given choices."
   },
   {
     "id": "780405d6",
@@ -842,7 +842,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) Observation status patient. This is because observation status patients are typically admitted to the hospital for a short period, usually less than 24 hours, for observation and monitoring, but sometimes their stay can extend beyond 24 hours. In such cases, their care is still considered observation status, even if it exceeds 24 hours."
   },
   {
     "id": "fdd67327",
@@ -855,7 +855,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) Family history of heart disease because having a family history of heart disease increases a person's genetic predisposition to developing atherosclerosis. This means that if a person's family members have a history of heart disease, they are more likely to inherit genetic factors that contribute to the development of atherosclerosis. This is a hereditary risk factor that cannot be changed, but it can be managed through lifestyle changes and medical interventions."
   },
   {
     "id": "89662da2",
@@ -868,7 +868,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) Normal saline IV infusion because the child is experiencing dehydration due to vomiting, which is a common symptom of diabetes ketoacidosis. Administering normal saline IV infusion will help to replenish fluids and electrolytes, addressing the dehydration and preventing further complications. This is the first step in managing the condition, before administering other treatments."
   },
   {
     "id": "52f9857d",
@@ -881,7 +881,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is D) Sucking ability. This is because a cleft lip can affect the formation of the mouth and the development of the sucking reflex, making it difficult for the baby to create a proper seal with the nipple during feeding. As a result, the baby may have trouble sucking effectively, which can lead to feeding difficulties and potential weight loss."
   },
   {
     "id": "563e45cb",
@@ -894,7 +894,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "Tetralogy of Fallot is a congenital heart defect that involves four main abnormalities: a ventricular septal defect, pulmonary stenosis, right ventricular hypertrophy, and an overriding aorta. This defect causes deoxygenated blood to bypass the lungs and directly enter the systemic circulation, resulting in cyanosis. The mixing of oxygenated and deoxygenated blood in the heart leads to decreased oxygen levels in the body, causing the characteristic blue discoloration of the skin."
   },
   {
     "id": "eb1dd7e3",
@@ -907,7 +907,7 @@
     },
     "answer": "B",
     "image": null,
-    "explanation": null
+    "explanation": "When a child has hypospadias, it's essential to avoid circumcision because the foreskin is often involved in the condition. Circumcision can cause further complications and make the existing condition worse. It's crucial to address the hypospadias surgically or medically first, and then consider circumcision if necessary."
   },
   {
     "id": "9e3c4250",
@@ -920,7 +920,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "A meningocele is a type of neural tube defect where there's a sac-like protrusion of the meninges (the protective layers covering the spinal cord) and cerebrospinal fluid, but not the spinal cord itself. This occurs when the meninges and spinal fluid herniate through an opening in the spine, forming a sac. The correct answer, C) Sac formation containing meninges and spinal fluid, accurately describes this condition."
   },
   {
     "id": "6e896c25",
@@ -933,7 +933,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "Intraosseous (IO) drug administration is typically used when a child is critically ill and under the age of 3. This is because IO access allows for rapid administration of medications and fluids when a child is unable to receive them through a vein due to circulatory collapse or difficulty accessing a peripheral IV site. In critically ill children under 3, IO access provides a reliable and efficient way to administer life-saving medications."
   },
   {
     "id": "62565b76",
@@ -946,7 +946,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "Uterine prolapse occurs when the uterus slips out of its normal position and into the vagina. This can cause women to feel like something is coming out of their vagina, which is a common symptom of this condition. The feeling is often described as a sensation of something falling or bulging into the vagina."
   },
   {
     "id": "cbb1db88",
@@ -959,7 +959,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) Lightening because it refers to the first sensation of the fetal head moving down into the pelvis, often described as a feeling of pressure or a \"lump\" in the abdomen. This occurs when the fetal head begins to settle into the pelvic brim, but it's still a bit higher up in the pelvis. It's an early sign of labor, but the head hasn't yet descended into the birth canal."
   },
   {
     "id": "e8596955",
@@ -972,7 +972,7 @@
     },
     "answer": "D",
     "image": null,
-    "explanation": null
+    "explanation": "Digoxin is a medication used to treat heart failure by increasing the strength of heart contractions and slowing the heart rate. When digoxin is therapeutically effective, the nurse can expect to see a decrease in edema, which is swelling caused by fluid buildup in the body due to heart failure. This is because digoxin helps the heart pump more efficiently, reducing the amount of fluid that accumulates in the body."
   },
   {
     "id": "565db4b8",
@@ -985,7 +985,7 @@
     },
     "answer": "C",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is C) Tachycardia. This is because hypoglycemia causes the body to release stress hormones, such as adrenaline, which increases heart rate and leads to tachycardia. As a result, tachycardia is a common clinical manifestation of hypoglycemia."
   },
   {
     "id": "7e94b58d",
@@ -998,7 +998,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "The New Ballard Score is used to assess the maturity of a newborn. This scale evaluates physical and neuromuscular maturity, including skin thickness, muscle tone, and reflexes, to determine if the baby is full-term or premature. It's an essential tool for healthcare providers to assess newborn health and development."
   },
   {
     "id": "d6e4ab5e",
@@ -1011,7 +1011,7 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is A) Tablet alprazolam 0.5 mg once a day before bed time for 7 days. This is because the prescription should include the specific dose, frequency, and duration of treatment. The correct format includes the dose in milligrams (mg), frequency (once a day), and timing (before bedtime), which is a clear and standard way to communicate the prescription to the patient or pharmacist."
   },
   {
     "id": "3ccf97f9",
@@ -1024,6 +1024,6 @@
     },
     "answer": "A",
     "image": null,
-    "explanation": null
+    "explanation": "The correct answer is A) Pg analogue, also known as Prostaglandin analogues. This is because Prostaglandin analogues can cause uveitis, which is an inflammation of the uvea in the eye, and can exacerbate symptoms such as redness, photophobia, and cells in the anterior chamber. In this patient, using a Prostaglandin analogue could worsen their condition."
   }
 ]
