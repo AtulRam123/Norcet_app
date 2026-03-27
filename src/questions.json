@@ -754,19 +754,6 @@
     "explanation": "Methimazole is the drug of choice for treating hyperthyroidism, specifically for conditions like Graves' disease. It works by inhibiting the production of thyroid hormones. Methimazole is generally preferred over other options due to its effectiveness and relatively lower risk of side effects."
   },
   {
-    "id": "24c7aa71",
-    "question": "Propylthiouracil",
-    "options": {
-      "A": "KI",
-      "B": "Methimazole",
-      "C": "Thiocyanate",
-      "D": ""
-    },
-    "answer": "B",
-    "image": null,
-    "explanation": "Propylthiouracil is an antithyroid medication used to treat hyperthyroidism. However, the correct answer is Methimazole, which is another antithyroid medication. Methimazole is a more commonly used alternative to Propylthiouracil, especially in certain situations such as liver dysfunction, making it the correct answer."
-  },
-  {
     "id": "f03a5761",
     "question": "Decreased the deposition of drug on the oropharynx",
     "options": {
@@ -776,7 +763,7 @@
       "D": ""
     },
     "answer": "B",
-    "image": null,
+    "image": "images/q_0014.png",
     "explanation": "When a drug is deposited on the oropharynx, it can lead to an increased risk of oropharyngeal candidiasis (a fungal infection). Decreasing the deposition of the drug on the oropharynx means less chance of this infection occurring. This is because the drug is not coming into contact with the oropharyngeal tissues as much, reducing the risk of infection."
   },
   {
