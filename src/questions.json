@@ -461,7 +461,7 @@
       "A": "Bilious vomiting",
       "B": "Constipation",
       "C": "Jaundice",
-      "D": ""
+      "D": "Abdominal distension"
     },
     "answer": "A",
     "image": "images/q_0001.png",
@@ -536,10 +536,10 @@
     "id": "3746232d",
     "question": "The image shows presence of:",
     "options": {
-      "A": "Strawberry tongue",
+      "A": "Magenta tongue",
       "B": "Black hairy tongue",
       "C": "Geographic tongue",
-      "D": ""
+      "D": "Strawberry tongue"
     },
     "answer": "A",
     "image": "images/q_0004.png",
@@ -588,10 +588,10 @@
     "id": "17b784af",
     "question": "Select the incorrect statement related to the pediatric emergency procedure being performed in the given image:",
     "options": {
-      "A": "Finger should be lifted off the chest to allow effective recoil between compressions",
+      "A": "Compression: Breath ratio should ideally be 30:2",
       "B": "Efficiency of chest compression should be assessed with brachial pulse periodically",
       "C": "Alternatively, the two-thumb technique is equally effective.",
-      "D": ""
+      "D": "Finger should be lifted off the chest to allow effective recoil between compressions"
     },
     "answer": "A",
     "image": "images/q_0007.png",
@@ -599,12 +599,12 @@
   },
   {
     "id": "0dfb902e",
-    "question": "Chromosome 8",
+    "question": "Identify the chromosomal abnormalities associated with the below depicted phenotype: (Genetic disorder)",
     "options": {
       "A": "Chromosome 13",
       "B": "Chromosome 18",
       "C": "Chromosome 21",
-      "D": ""
+      "D": "Chromosome 8"
     },
     "answer": "C",
     "image": "images/q_0008.png",
@@ -630,7 +630,7 @@
       "A": "Streptococcus pneumoniae",
       "B": "Neisseria meningitidis",
       "C": "E. coli",
-      "D": ""
+      "D": "Pseudomonas aeruginosa"
     },
     "answer": "B",
     "image": "images/q_0009.png",
@@ -734,7 +734,7 @@
       "A": "KI",
       "B": "Methimazole",
       "C": "Thiocyanate",
-      "D": ""
+      "D": "Propylthiouracil"
     },
     "answer": "B",
     "image": "images/q_0012.png",
@@ -744,10 +744,10 @@
     "id": "f03a5761",
     "question": "All are correct about the given devices below used along with pMDI (pressurized metered-dose inhaler), except",
     "options": {
-      "A": "b. Increase the delivery of drug to lower airways",
-      "B": "c. Increase the incidence of oropharyngeal candidiasis",
-      "C": "d. Decrease the systemic absorption of drugs",
-      "D": ""
+      "A": "Increase the delivery of drug to lower airways",
+      "B": "Increase the incidence of oropharyngeal candidiasis",
+      "C": "Decrease the systemic absorption of drugs",
+      "D": "Decreased the deposition of drug on the oropharynx"
     },
     "answer": "B",
     "image": "images/q_0013.png",
@@ -1592,7 +1592,7 @@
       "A": "Performing a vaginal exam",
       "B": "Turning off the Pitocin infusion",
       "C": "Placing the client in a semi-Fowler’s position",
-      "D": ""
+      "D": "Instructing the client to push"
     },
     "answer": "B",
     "image": "images/q_0014.png",
@@ -1722,7 +1722,7 @@
       "A": "Skin fold thickness",
       "B": "Cold chain temperature monitoring",
       "C": "Mid arm circumference",
-      "D": ""
+      "D": "Head circumference"
     },
     "answer": "A",
     "image": "images/q_0015.png",
@@ -1810,10 +1810,10 @@
     "id": "ebcccb79",
     "question": "The patient has fever, cough and cold. CXR is given below. What will be the examination finding in the infra-scapular region?",
     "options": {
-      "A": "Hyper-resonance notes on percussion",
+      "A": "Dull note in percussion Hyper-resonance notes on percussion",
       "B": "Fixed wheeze stridor",
       "C": "Coarse crackles",
-      "D": ""
+      "D": "Hyper-resonance notes on percussion"
     },
     "answer": "A",
     "image": "images/q_0018.png",
@@ -1823,10 +1823,10 @@
     "id": "22810bcb",
     "question": "Image of the following is used in which of the following diseases?",
     "options": {
-      "A": "Kala azar",
+      "A": "Malaria",
       "B": "Leprosy",
       "C": "Typhoid",
-      "D": ""
+      "D": "Kala azar"
     },
     "answer": "A",
     "image": "images/q_0019.png",
@@ -1839,7 +1839,7 @@
       "A": "Datura",
       "B": "Abrus precatorius",
       "C": "Nigella sativus",
-      "D": ""
+      "D": "Opium"
     },
     "answer": "C",
     "image": "images/q_0020.png",
@@ -1849,10 +1849,10 @@
     "id": "0dc3e6c5",
     "question": "A 19-year-old unmarried female presented with hirsutism, B/L enlarged ovaries. What all can be done as the first-line treatment except?",
     "options": {
-      "A": "Anti-androgens",
+      "A": "Laparoscopic ovarian drilling",
       "B": "Lifestyle modification",
       "C": "OC pills",
-      "D": ""
+      "D": "Anti-androgens"
     },
     "answer": "A",
     "image": "images/q_0021.png",
@@ -1865,7 +1865,7 @@
       "A": "66 ml/min",
       "B": "96 ml/min",
       "C": "106 ml/min",
-      "D": ""
+      "D": "86 ml/min"
     },
     "answer": "B",
     "image": "images/q_0022.png",
@@ -1875,10 +1875,10 @@
     "id": "13c5275d",
     "question": "Identify the phenomenon is shown in the image",
     "options": {
-      "A": "Reverse isomorphic",
+      "A": "Isomorphic phenomenon Reverse isomorphic",
       "B": "Gottron’s papule",
       "C": "Nikolsky sign",
-      "D": ""
+      "D": "Reverse isomorphic"
     },
     "answer": "A",
     "image": "images/q_0023.png",
@@ -2008,7 +2008,7 @@
       "A": "Asperger's syndrome",
       "B": "Binge eating disorder",
       "C": "Retts disorder",
-      "D": ""
+      "D": "Tourette syndrome"
     },
     "answer": "B",
     "image": "images/q_0024.png",
@@ -2502,7 +2502,7 @@
       "A": "Tear film break-up time",
       "B": "Schirmer's test",
       "C": "Tear meniscometry",
-      "D": ""
+      "D": "Phenol red thread test"
     },
     "answer": "B",
     "image": "images/q_0025.png",
@@ -2515,7 +2515,7 @@
       "A": "Diphasic pill",
       "B": "Triphasic pill",
       "C": "Progesterone only pill",
-      "D": ""
+      "D": "Monophasic pill"
     },
     "answer": "B",
     "image": "images/q_0026.png",
@@ -2528,7 +2528,7 @@
       "A": "Macintosh laryngoscope",
       "B": "Video laryngoscope",
       "C": "Magill’s laryngoscope",
-      "D": ""
+      "D": "Millers’ laryngoscope"
     },
     "answer": "A",
     "image": "images/q_0027.png",
@@ -2567,7 +2567,7 @@
       "A": "Post surgical sequelae",
       "B": "Respiratory alkalosis",
       "C": "Blood transfusion associated",
-      "D": ""
+      "D": "Renal Tubular defect"
     },
     "answer": "A",
     "image": "images/q_0028.png",
