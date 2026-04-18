@@ -1,0 +1,40 @@
+{
+  "flagged_count": 2,
+  "summary": {
+    "visual_stem_without_image": 1,
+    "fewer_than_4_options": 1
+  },
+  "questions": [
+    {
+      "id": "4a3e57dcb476",
+      "topic": null,
+      "question": "Identify above condition?",
+      "image": null,
+      "answer": "C",
+      "flags": [
+        "visual_stem_without_image"
+      ],
+      "options": {
+        "A": "Anencephaly",
+        "B": "Iniencephaly",
+        "C": "Craniorachischisis",
+        "D": "Spinal bifida"
+      }
+    },
+    {
+      "id": "09d2d549163d",
+      "topic": null,
+      "question": "A 2-year-old is hospitalized with suspected intussusception. Which finding is associated with intussusception?",
+      "image": null,
+      "answer": "A",
+      "flags": [
+        "fewer_than_4_options"
+      ],
+      "options": {
+        "A": "\"Currant jelly\" stools",
+        "B": "Projectile vomiting",
+        "C": "Ribbonlike\" stools Palpable mass over the flank"
+      }
+    }
+  ]
+}

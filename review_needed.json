@@ -1,0 +1,127 @@
+[
+  {
+    "block": 217,
+    "error": "Block 217 (para 1373): 1 option(s) — Q: 'DPT'",
+    "lines": [
+      "DPT",
+      "BCG"
+    ]
+  },
+  {
+    "block": 274,
+    "error": "Block 274 (para 1724): 1 option(s) — Q: 'Progestasert'",
+    "lines": [
+      "Progestasert",
+      "Mirena"
+    ]
+  },
+  {
+    "block": 392,
+    "error": "Block 392 (para 2473): 1 option(s) — Q: 'Dunlop'",
+    "lines": [
+      "Dunlop",
+      "Bucks"
+    ]
+  },
+  {
+    "block": 410,
+    "error": "Block 410 (para 2580): 1 option(s) — Q: 'Quota sampling'",
+    "lines": [
+      "Quota sampling",
+      "Snowball sampling"
+    ]
+  },
+  {
+    "block": 645,
+    "error": "Block 645 (para 3912): empty/too-short question",
+    "lines": [
+      "10",
+      "14",
+      "16",
+      "Which of the following is not element of administration",
+      "Planning"
+    ]
+  },
+  {
+    "block": 683,
+    "error": "Block 683 (para 4101): 1 option(s) — Q: 'Halo effect'",
+    "lines": [
+      "Halo effect",
+      "Horn effect"
+    ]
+  },
+  {
+    "block": 726,
+    "error": "Block 726 (para 4322): empty/too-short question",
+    "lines": [
+      "7",
+      "Shake test is done for?",
+      "Heat sensitive vaccine",
+      "Freeze sensitive vaccine",
+      "Cold resistant vaccine"
+    ]
+  },
+  {
+    "block": 766,
+    "error": "Block 766 (para 4522): 1 option(s) — Q: 'Symmetric tonic neck reflex'",
+    "lines": [
+      "Symmetric tonic neck reflex",
+      "Asymmetric tonic neck reflex"
+    ]
+  },
+  {
+    "block": 1024,
+    "error": "Block 1024 (para 5829): empty/too-short question",
+    "lines": [
+      "4",
+      "No need only TT immunoglobulin provide",
+      "What is DASH?",
+      "Domestic approaches to stop hypertension",
+      "Dietary approaches to stop hyperlipidaemia"
+    ]
+  },
+  {
+    "block": 1040,
+    "error": "Block 1040 (para 5909): empty/too-short question",
+    "lines": [
+      "3",
+      "4",
+      "Current infant mortality rate of India is",
+      "19.3",
+      "31"
+    ]
+  },
+  {
+    "block": 1041,
+    "error": "Block 1041 (para 5914): empty/too-short question",
+    "lines": [
+      "19",
+      "27",
+      "Which colour of new kit is added to RTI/STI kit",
+      "Red",
+      "Black"
+    ]
+  },
+  {
+    "block": 1082,
+    "error": "Block 1082 (para 6119): empty/too-short question",
+    "lines": [
+      "4",
+      "6",
+      "8",
+      "Minimum number of A.N.C visit as per W.H.O is",
+      "4"
+    ]
+  },
+  {
+    "block": 1083,
+    "error": "Block 1083 (para 6124): empty/too-short question",
+    "lines": [
+      "6",
+      "8",
+      "1214",
+      "Tele-Manas is related to",
+      "Maternal and child health"
+    ]
+  }
+]
