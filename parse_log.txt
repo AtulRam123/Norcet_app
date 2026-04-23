@@ -1,0 +1,87 @@
+Parse log — src/questions.docx
+============================================================
+
+SUMMARY
+----------------------------------------
+  Paragraphs          : 6348
+  MCQ blocks          : 1126
+  Valid questions     : 1113
+  With answers        : 1028
+  No answer key       : 85
+  With images         : 88
+  True/False          : 0
+  Skipped             : 13
+  Warnings            : 85
+  Added               : 0
+  Updated             : 0
+  Total in JSON       : 1214
+
+SKIPPED (13):
+----------------------------------------
+  • Block 217 (para 1373): 1 option(s) — Q: 'DPT'
+  • Block 274 (para 1724): 1 option(s) — Q: 'Progestasert'
+  • Block 392 (para 2473): 1 option(s) — Q: 'Dunlop'
+  • Block 410 (para 2580): 1 option(s) — Q: 'Quota sampling'
+  • Block 645 (para 3912): empty/too-short question
+  • Block 683 (para 4101): 1 option(s) — Q: 'Halo effect'
+  • Block 726 (para 4322): empty/too-short question
+  • Block 766 (para 4522): 1 option(s) — Q: 'Symmetric tonic neck reflex'
+  • Block 1024 (para 5829): empty/too-short question
+  • Block 1040 (para 5909): empty/too-short question
+  • Block 1041 (para 5914): empty/too-short question
+  • Block 1082 (para 6119): empty/too-short question
+  • Block 1083 (para 6124): empty/too-short question
+
+NO ANSWER KEY (85):
+----------------------------------------
+  • Block 156 (para 991): no highlighted answer — Q: 'psychotherapy used for mental retardation child? C'
+  • Block 216 (para 1368): no highlighted answer — Q: 'All vaccines can be used up to 28 days after openi'
+  • Block 225 (para 1422): no highlighted answer — Q: 'In a multigravida female conceive pregnancy with i'
+  • Block 294: 1-line image Q saved as incomplete
+  • Block 321 (para 2033): no highlighted answer — Q: 'Which of following bacteriostatic antitubercular d'
+  • Block 322 (para 2038): no highlighted answer — Q: 'Ethambutol'
+  • Block 324 (para 2048): no highlighted answer — Q: 'Carbapenems'
+  • Block 326 (para 2058): no highlighted answer — Q: 'A 45-year-old man with estimated GFR of 90 mL/min/'
+  • Block 349 (para 2198): no highlighted answer — Q: 'Area of mitral orifice in adult is'
+  • Block 380: 1-line image Q saved as incomplete
+  • Block 473 (para 2963): no highlighted answer — Q: 'Gynecomastia is seen in which kind of lung cancer'
+  • Block 526 (para 3274): no highlighted answer — Q: 'There are 50 individual in population and they hav'
+  • Block 604 (para 3708): no highlighted answer — Q: 'Socialized medicine'
+  • Block 605 (para 3713): no highlighted answer — Q: 'Herd'
+  • Block 606 (para 3718): no highlighted answer — Q: 'Social marketing'
+  • Block 613 (para 3753): no highlighted answer — Q: 'Hypoglycaemia'
+  • Block 614 (para 3758): no highlighted answer — Q: 'Streptomycin'
+  • Block 615 (para 3763): no highlighted answer — Q: 'Rifampicin'
+  • Block 616 (para 3768): no highlighted answer — Q: 'ABCDE'
+  • Block 618 (para 3778): no highlighted answer — Q: 'Septic shock'
+  • Block 634 (para 3857): no highlighted answer — Q: 'I.v induction agent of choice for day care surgery'
+  • Block 635 (para 3862): no highlighted answer — Q: 'Profol'
+  • Block 636 (para 3867): no highlighted answer — Q: 'Ketamine'
+  • Block 642 (para 3897): no highlighted answer — Q: 'Radio'
+  • Block 657 (para 3971): no highlighted answer — Q: 'Succinylcholine'
+  • Block 659 (para 3981): no highlighted answer — Q: 'Rocuronium'
+  • Block 674 (para 4056): no highlighted answer — Q: '300-400 gm'
+  • Block 675 (para 4061): no highlighted answer — Q: 'Fluorine'
+  • Block 682 (para 4096): no highlighted answer — Q: 'Lifelong'
+  • Block 693 (para 4151): no highlighted answer — Q: 'Labile effect'
+  • Block 695 (para 4161): no highlighted answer — Q: 'Hyoscine'
+  • Block 705 (para 4214): no highlighted answer — Q: 'Hypokalaemia'
+  • Block 706 (para 4219): no highlighted answer — Q: '72 hour'
+  • Block 713 (para 4254): no highlighted answer — Q: '10,000x'
+  • Block 732 (para 4352): no highlighted answer — Q: '1:10000,0.5 ml'
+  • Block 735 (para 4367): no highlighted answer — Q: 'Atrial flutter'
+  • Block 737 (para 4377): no highlighted answer — Q: 'Hyoscine'
+  • Block 740 (para 4392): no highlighted answer — Q: 'Entacapone'
+  • Block 741 (para 4397): no highlighted answer — Q: 'Benzhexol'
+  • Block 743 (para 4407): no highlighted answer — Q: '3-6 month'
+  • Block 753 (para 4457): no highlighted answer — Q: 'Most common cause of fulminant hepatic failure in '
+  • Block 758 (para 4482): no highlighted answer — Q: 'Swing to gait'
+  • Block 759 (para 4487): no highlighted answer — Q: 'T. B'
+  • Block 760 (para 4492): no highlighted answer — Q: 'Apex of lung'
+  • Block 761 (para 4497): no highlighted answer — Q: 'Horrock's apparatus'
+  • Block 765 (para 4517): no highlighted answer — Q: 'Lack of facilities'
+  • Block 901 (para 5205): no highlighted answer — Q: '1⁄2'
+  • Block 902 (para 5210): no highlighted answer — Q: 'BPS'
+  • Block 903 (para 5215): no highlighted answer — Q: 'Mannitol'
+  • Block 905 (para 5225): no highlighted answer — Q: 'Loop diuretic'
+  ... and 35 more

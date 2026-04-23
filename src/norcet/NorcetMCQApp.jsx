@@ -20,6 +20,7 @@ export default function NorcetMCQApp() {
   }, [allQ]);
 
   const [unified, setUnified] = useState(() => loadUnified(QUESTION_ID_SET, QUESTION_BANK_SIGNATURE));
+  const [completedSessionId, setCompletedSessionId] = useState(null);
 
   const patchUnified = useCallback((patch) => {
     setUnified(prev => {
@@ -39,6 +40,14 @@ export default function NorcetMCQApp() {
     const sessions = unified.sessions || [];
     return sessions.find(s => s.poolIdx < (s.poolIds?.length || 0) && !(s.isMock && s.timeLeft === 0)) || null;
   }, [unified.sessions]);
+  const incompleteSessions = useMemo(() => {
+    const sessions = unified.sessions || [];
+    return sessions.filter(s => s.poolIdx < (s.poolIds?.length || 0) && !(s.isMock && s.timeLeft === 0));
+  }, [unified.sessions]);
+  const completedSession = useMemo(() => {
+    if (!completedSessionId) return null;
+    return (unified.sessions || []).find((s) => s.id === completedSessionId) || null;
+  }, [completedSessionId, unified.sessions]);
 
   const sess       = activeSess;
   const sessIdx    = sess ? sess.poolIdx : 0;
@@ -52,6 +61,12 @@ export default function NorcetMCQApp() {
   const sessAcc    = (sessCorrect + sessWrong) > 0 ? Math.round((sessCorrect / (sessCorrect + sessWrong)) * 100) : 0;
   const isDone     = !!sess && (sessIdx >= sessTotal || (sess.isMock && sess.timeLeft === 0));
   const sessionActive = !!sess && !isDone;
+  const continueSession = incompleteSessions[0] || null;
+  const doneSession = completedSession || (isDone ? sess : null);
+  const doneTotal = doneSession?.poolIds?.length || 0;
+  const doneCorrect = doneSession?.correct || 0;
+  const doneWrong = doneSession?.wrong || 0;
+  const doneAccuracy = (doneCorrect + doneWrong) > 0 ? Math.round((doneCorrect / (doneCorrect + doneWrong)) * 100) : 0;
 
   // ── Timer ──
   const [mockDone, setMockDone] = useState(false);
@@ -90,6 +105,7 @@ export default function NorcetMCQApp() {
   const [showSettings,  setShowSettings] = useState(false);
   const [dayDetail,     setDayDetail]    = useState(null);
   const [wrongFilter,   setWrongFilter]  = useState("all");
+  const [expandedExplanations, setExpandedExplanations] = useState({});
   const [calDate,       setCalDate]      = useState(new Date());
   const [loveNote]                       = useState(() => rand(DAILY_NOTES));
   const [localName,     setLocalName]    = useState("");
@@ -174,7 +190,14 @@ export default function NorcetMCQApp() {
   const hr         = new Date().getHours();
   const greetWord  = hr < 12 ? "Good Morning" : hr < 17 ? "Good Afternoon" : "Good Evening";
   const greetEmoji = hr < 12 ? "🌅" : hr < 17 ? "☀️" : "🌙";
-  const name1      = (userName || "").split(" ")[0];
+  const displayName = useMemo(() => {
+    const firstName = (userName || "").trim().split(/\s+/)[0] || "";
+    if (/^mimansa$/i.test(firstName)) {
+      return "Mimi";
+    }
+    return firstName;
+  }, [userName]);
+  const name1 = displayName;
   const mockTimeLeft = sess?.timeLeft || 0;
   const mockTimePct  = sess?.isMock ? Math.max(0, (mockTimeLeft / ((sessTotal || 1) * MOCK_SPQ)) * 100) : 0;
   const mockTimeFmt  = `${String(Math.floor(mockTimeLeft / 60)).padStart(2, "0")}:${String(mockTimeLeft % 60).padStart(2, "0")}`;
@@ -227,6 +250,7 @@ export default function NorcetMCQApp() {
     };
     patchUnified({ sessions: [newSess, ...(unified.sessions || []).slice(0, 9)], settings: { ...settings, userName } });
     setSelected(null); setAnswered(false); setMockDone(false); setLoveFeedback("");
+    setCompletedSessionId(null);
     setShowSetup(false); setTab("practice");
   }, [allQ, buildSessionIds, unified.sessions, settings, userName, patchUnified]);
 
@@ -255,6 +279,7 @@ export default function NorcetMCQApp() {
   const handleNext = useCallback(() => {
     if (!sess) return;
     const nextIdx = sess.poolIdx + 1;
+    const completedNow = nextIdx >= sessTotal || (sess.isMock && (sess.timeLeft || 0) === 0);
     if (nextIdx >= sessTotal && sess.isMock) { setMockDone(true); if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; } }
     setUnified(prev => {
       const sessions = (prev.sessions || []).map(s => s.id === sess.id ? { ...s, poolIdx: nextIdx } : s);
@@ -262,6 +287,7 @@ export default function NorcetMCQApp() {
       persistUnified(next);
       return next;
     });
+    if (completedNow) setCompletedSessionId(sess.id);
     setSelected(null); setAnswered(false); setLoveFeedback("");
   }, [sess, sessTotal]);
 
@@ -291,6 +317,75 @@ export default function NorcetMCQApp() {
     if (!entries.length) return;
     setDayDetail({ date: ds, entries });
   };
+
+  const toggleExplanation = useCallback((questionId) => {
+    setExpandedExplanations((prev) => ({ ...prev, [questionId]: !prev[questionId] }));
+  }, []);
+
+  const renderExplanationCard = useCallback((question, meta, mode = "practice") => {
+    if (!question || !meta) {
+      return null;
+    }
+
+    const isExpanded = !!expandedExplanations[question.id];
+
+    return (
+      <div className={`explanation ${isExpanded ? "is-open" : "is-collapsed"} ${mode === "mistake" ? "is-mistake" : ""}`}>
+        <button
+          type="button"
+          className="explanation-toggle"
+          onClick={() => toggleExplanation(question.id)}
+        >
+          <span className="explanation-toggle-copy">
+            <strong>{mode === "mistake" ? "Review Explanation" : "Explanation"}</strong>
+            <span className="explanation-toggle-text">
+              {isExpanded ? "Tap to hide the explanation" : "Tap to view the explanation"}
+            </span>
+          </span>
+          <span className="explanation-toggle-icon" aria-hidden="true">{isExpanded ? "−" : "+"}</span>
+        </button>
+        {isExpanded && (
+          <>
+            <div className="explanation-head">
+              <strong>Why This Is Right</strong>
+              <span className="explanation-chip">Precise</span>
+            </div>
+            <div className="explanation-main">
+              {meta.answerText && (
+                <div className="explanation-kicker">Correct Answer</div>
+              )}
+              {meta.answerText && (
+                <div className="explanation-answer-row">
+                  <span className="explanation-answer-badge">{question.answer}</span>
+                  <span className="explanation-answer">{question.options[question.answer]}</span>
+                </div>
+              )}
+              <div className="explanation-note explanation-note-main">{meta.primary}</div>
+              {meta.detail && <div className="explanation-note">{meta.detail}</div>}
+              {meta.imageHint && <div className="explanation-note explanation-note-hint">{meta.imageHint}</div>}
+            </div>
+            {meta.whyNotCards?.length > 0 && (
+              <div className="explanation-why-not">
+                <div className="explanation-subhead">Why Not The Others</div>
+                {meta.whyNotCards.map((item, index) => (
+                  <div key={`${question.id}-why-not-${index}`} className="explanation-option-card">
+                    <span className="explanation-option-badge">{item.label}</span>
+                    <span className="explanation-option-copy">
+                      <span className="explanation-option-topline">
+                        <span className="explanation-option-title">{item.title}</span>
+                        {item.tag && <span className="explanation-option-tag">{item.tag}</span>}
+                      </span>
+                      {item.body && <span className="explanation-option-line">{item.body}</span>}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    );
+  }, [expandedExplanations, toggleExplanation]);
 
   // Calendar helpers
   const calY     = calDate.getFullYear();
@@ -360,6 +455,9 @@ export default function NorcetMCQApp() {
       .replace(/\r\n/g, "\n")
       .replace(/^Explanation:\s*/i, "")
       .replace(/^Rationale:\s*/i, "")
+      .replace(/\s+Why not:\s*/gi, "\nWhy not:\n")
+      .replace(/(?<!\n)([A-E]\))\s*/g, "\n$1 ")
+      .replace(/(?<!\n)-\s*([A-E]\))\s*/g, "\n$1 ")
       .trim();
 
     if (!cleaned) {
@@ -370,6 +468,7 @@ export default function NorcetMCQApp() {
       .split("\n")
       .map((line) => line.replace(/\s+/g, " ").trim())
       .filter(Boolean)
+      .filter((line) => !/^- /.test(line))
       .map((line) => {
         if (/^(Why not:|[A-E]\))/.test(line)) {
           return line;
@@ -398,54 +497,64 @@ export default function NorcetMCQApp() {
     return "Less accurate";
   }, []);
 
-  const explanationMeta = useMemo(() => {
-    if (!currentQ || !answered) {
+  const getExplanationMeta = useCallback((question, requireAnswered = false) => {
+    if (!question || (requireAnswered && !answered)) {
       return null;
     }
 
-    const explanation = formatExplanation(currentQ);
+    const explanation = formatExplanation(question);
     if (!explanation) {
       return null;
     }
 
-    const answerText = currentQ.answer && currentQ.options[currentQ.answer]
-      ? `${currentQ.answer}) ${currentQ.options[currentQ.answer]}`
+    const answerText = question.answer && question.options[question.answer]
+      ? `${question.answer}) ${question.options[question.answer]}`
       : null;
 
     const lines = explanation
       .split("\n")
       .map((line) => line.trim())
       .filter(Boolean);
+
     const whyNotIndex = lines.findIndex((line) => /^Why not:/i.test(line));
     const mainLines = whyNotIndex === -1 ? lines : lines.slice(0, whyNotIndex);
     const whyNotLines = whyNotIndex === -1 ? [] : lines.slice(whyNotIndex + 1);
+
+    // Correct answer block: join all main lines, split into sentences
     const mainText = mainLines.join(" ");
-    const sentences = mainText.split(/(?<=[.!?])\s+/).filter(Boolean);
-    const primary = sentences[0] || mainText || explanation;
-    const detail = sentences.slice(1).join(" ");
-    const whyNotCards = whyNotLines.map((line, index) => {
-      const optionMatch = line.match(/^([A-E])\)\s*(.*)$/);
-      const splitReason = (value) => {
-        const parts = (value || "").split(/(?<=[.!?])\s+/).filter(Boolean);
-        return {
-          title: parts[0] || value,
-          body: parts.slice(1).join(" "),
-        };
-      };
-      if (!optionMatch) {
-        const parts = splitReason(line);
-        return { id: `note-${index}`, label: "Note", text: line, title: parts.title, body: parts.body };
+    const allSentences = mainText.match(/[^.!?]+[.!?]+/g) || [mainText];
+    const primary = allSentences[0]?.trim() || mainText;
+    const detail = allSentences.slice(1).map(s => s.trim()).join(" ");
+
+    // Wrong options: group consecutive continuation lines under their option label
+    const grouped = [];
+    let cur = null;
+    for (const line of whyNotLines) {
+      const m = line.match(/^([A-E])\)\s*(.*)$/);
+      if (m) {
+        if (cur) grouped.push(cur);
+        cur = { id: m[1], label: `${m[1]})`, raw: m[2] };
+      } else if (cur) {
+        cur.raw = cur.raw ? `${cur.raw} ${line}` : line;
       }
-      const parts = splitReason(optionMatch[2]);
-      return {
-        id: optionMatch[1],
-        label: `${optionMatch[1]})`,
-        text: optionMatch[2],
-        title: parts.title,
-        body: parts.body,
-        tag: classifyWhyNotTag(optionMatch[2]),
-      };
-    });
+    }
+    if (cur) grouped.push(cur);
+
+    const whyNotCards = grouped
+      .filter((item) => item.id !== question.answer)
+      .map((item) => {
+        const sentences = (item.raw || "").match(/[^.!?]+[.!?]+/g) || [item.raw];
+        const title = sentences[0]?.trim() || item.raw;
+        const body = sentences.slice(1).map(s => s.trim()).join(" ");
+        return {
+          id: item.id,
+          label: item.label,
+          text: item.raw,
+          title,
+          body,
+          tag: classifyWhyNotTag(item.raw),
+        };
+      });
 
     return {
       answerText,
@@ -454,15 +563,20 @@ export default function NorcetMCQApp() {
       detail,
       whyNotLines,
       whyNotCards,
-      imageHint: currentQ.image ? "For image-based items, focus on the key visual clue that matches the diagnosis, instrument, posture, graph, or finding." : null,
+      imageHint: question.image ? "For image-based items, focus on the key visual clue that matches the diagnosis, instrument, posture, graph, or finding." : null,
     };
-  }, [answered, currentQ, formatExplanation, classifyWhyNotTag]);
+  }, [answered, formatExplanation, classifyWhyNotTag]);
+
+  const explanationMeta = useMemo(() => (
+    getExplanationMeta(currentQ, true)
+  ), [currentQ, getExplanationMeta]);
 
   const startRevision = useCallback(() => {
     const ids = pickPool(allQ, new Set(), wrongIds, Math.min(wrongIds.size, 30));
     if (!ids.length) return;
     const sessionId = `sess_${Date.now()}`;
     patchUnified({ sessions: [{ id: sessionId, date: todayStr(), correct: 0, wrong: 0, poolIds: ids, poolIdx: 0, isMock: false, timeLeft: null, target: ids.length, mockAnswers: {} }, ...(unified.sessions || []).slice(0, 9)] });
+    setCompletedSessionId(null);
     setShowSetup(false); setTab("practice");
     setSelected(null); setAnswered(false); setMockDone(false); setLoveFeedback("");
   }, [allQ, wrongIds, unified.sessions, patchUnified]);
@@ -474,6 +588,13 @@ export default function NorcetMCQApp() {
     if (!imageQuestions.length) return;
     startSession(Math.min(imageQuestions.length, 30), false, imageQuestions, "image-only");
   }, [imageQuestions, startSession]);
+  const handleContinueIncompleteSession = useCallback(() => {
+    setCompletedSessionId(null);
+    setSelected(null);
+    setAnswered(false);
+    setLoveFeedback("");
+    setTab("practice");
+  }, []);
 
   // CSS injection
   const styleRef = useRef(null);
@@ -906,8 +1027,8 @@ export default function NorcetMCQApp() {
             <div className="mood-card">
               <div className="mood-avatar">💌</div>
               <div className="mood-text">
+                <div className="ms">{greetEmoji} {greetWord}{name1?`, ${name1}`:""} <span className="mood-heart">ðŸ’—</span></div>
                 <div className="mt">"{loveNote}"</div>
-                <div className="ms">{greetEmoji} {greetWord}{name1?`, ${name1}`:""}</div>
               </div>
             </div>
           </div>
@@ -966,20 +1087,23 @@ export default function NorcetMCQApp() {
           <div className="today desktop-only">
             <div className="today-row">
               <div>
-                <div className="today-tag">{sessionActive&&!isDone?"⚡ Active Session":isDone?"✅ Completed":"📋 No Session Yet"}</div>
+                <div className="today-tag">{sessionActive&&!isDone?"⚡ Active Session":doneSession?"✅ Session Complete":"📋 No Session Yet"}</div>
                 <div className="today-title">
-                  {sessionActive?isDone?`Done — ${sessCorrect}/${sessPool.length} correct`:`${sessDone}/${sessTotal} done${sess?.isMock?" · MOCK ⏱":""}`:
+                  {sessionActive?`${sessDone}/${sessTotal} done${sess?.isMock?" · MOCK ⏱":""}`:
+                  doneSession?`Last session — ${doneCorrect}/${doneTotal} correct`:
                   "Ready to study, my love? 💕"}
                 </div>
                 <div className="today-sub">
                   {sessionActive?`${sessCorrect} correct · ${sessWrong} wrong${sessAcc>0?` · ${sessAcc}%`:""}`:
+                  doneSession?`${doneCorrect} correct · ${doneWrong} wrong${doneAccuracy>0?` · ${doneAccuracy}%`:""}`:
                   "Choose 1–100 questions"}
                 </div>
               </div>
               <div className="today-btns">
                 {sessionActive&&!isDone&&<button className="btn-sec" onClick={()=>setTab("practice")}>Continue →</button>}
+                {doneSession&&continueSession&&<button className="btn-sec" onClick={handleContinueIncompleteSession}>Continue Incomplete</button>}
                 <button className="btn-primary" onClick={()=>setShowSetup(true)}>
-                  {sessionActive&&!isDone?"New Session":"Start Session 💪"}
+                  {sessionActive&&!isDone?"New Session":doneSession?"Start Fresh Session":"Start Session 💪"}
                 </button>
                 {!!bookmarkedQ.length&&<button className="btn-sec" onClick={startBookmarkedRevision}>Saved 🔖</button>}
                 {!!imageQuestions.length&&<button className="btn-sec" onClick={startImageRevision}>Images 🖼</button>}
@@ -1105,6 +1229,43 @@ export default function NorcetMCQApp() {
               </div>
             </div>
 
+            {Object.keys(topicStats).length > 0 && (
+              <div className="panel mob-only" style={{marginBottom:12}}>
+                <div className="ptitle">Topic Performance</div>
+                {Object.entries(topicStats)
+                  .sort(([, left], [, right]) => (right.total || 0) - (left.total || 0))
+                  .slice(0, 5)
+                  .map(([topic, s]) => {
+                    const acc = s.total ? Math.round((s.correct / s.total) * 100) : 0;
+                    return (
+                      <div className="arow" key={topic}>
+                        <div className="aday" style={{minWidth:88,fontSize:".68rem"}}>{topic}</div>
+                        <div className="atrack"><div className="afill" style={{width:`${acc}%`,background:acc>=80?"var(--teal)":acc>=50?"var(--gold)":"var(--wrong)"}}/></div>
+                        <div className="apct">{acc}%</div>
+                      </div>
+                    );
+                  })}
+              </div>
+            )}
+
+            {weakAreas.length > 0 && (
+              <div className="panel mob-only" style={{marginBottom:12}}>
+                <div className="ptitle">Weak Areas</div>
+                <div className="weak-grid">
+                  {weakAreas.slice(0, 3).map((area) => (
+                    <button key={area.topic} className="weak-card" onClick={() => { setShowSetup(true); setSetupTopic(area.topic); setSetupSource("wrong-only"); }}>
+                      <div className="weak-top">
+                        <div className="weak-topic">{area.topic}</div>
+                        <div className={`weak-badge ${area.accuracy >= 70 ? "good" : area.accuracy >= 50 ? "mid" : "low"}`}>{area.accuracy}%</div>
+                      </div>
+                      <div className="weak-sub">{area.wrong} wrong · {area.correct} correct</div>
+                      <div className="weak-track"><div className="weak-fill" style={{width:`${area.accuracy}%`}}/></div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Last 7 days — compact on mobile */}
             <div className="panel" style={{marginBottom:12}}>
               <div className="ptitle">📊 Last 7 Days</div>
@@ -1210,27 +1371,48 @@ export default function NorcetMCQApp() {
               </div>
             )}
 
-            {isDone && (
+            {doneSession && (
               <div className="done-wrap">
-                <span className="done-emoji">{sessAcc===100?"🏆":sessAcc>=80?"🌟":"💖"}</span>
-                <h2>{sess?.isMock?"Mock Exam Done!":"Session Complete!"}</h2>
-                <div className="done-score">{sessCorrect}/{sessTotal}</div>
+                <span className="done-emoji">{doneAccuracy===100?"🏆":doneAccuracy>=80?"🌟":"💖"}</span>
+                <h2>{doneSession?.isMock?"Mock Exam Done!":"Session Complete!"}</h2>
+                <div className="done-score">{doneCorrect}/{doneTotal}</div>
                 <div className="done-acc-pill" style={{
-                  background:sessAcc>=80?"var(--correct-light)":sessAcc>=50?"var(--gold-light)":"var(--wrong-light)",
-                  color:sessAcc>=80?"var(--correct)":sessAcc>=50?"var(--gold)":"var(--wrong)",
-                  border:`1.5px solid ${sessAcc>=80?"rgba(40,160,96,.3)":sessAcc>=50?"rgba(232,160,48,.3)":"rgba(224,64,96,.3)"}`
-                }}>{sessAcc}% Accuracy{sessAcc===100?" 🏆":sessAcc>=80?" 🌟":""}</div>
+                  background:doneAccuracy>=80?"var(--correct-light)":doneAccuracy>=50?"var(--gold-light)":"var(--wrong-light)",
+                  color:doneAccuracy>=80?"var(--correct)":doneAccuracy>=50?"var(--gold)":"var(--wrong)",
+                  border:`1.5px solid ${doneAccuracy>=80?"rgba(40,160,96,.3)":doneAccuracy>=50?"rgba(232,160,48,.3)":"rgba(224,64,96,.3)"}`
+                }}>{doneAccuracy}% Accuracy{doneAccuracy===100?" 🏆":doneAccuracy>=80?" 🌟":""}</div>
                 <div className="done-love">{rand(DONE_MSGS)}</div>
-                <p>{sessCorrect} correct · {sessWrong} wrong<br/>{att.size} of {totalQ} total done</p>
+                <p className="done-summary-copy">
+                  {doneAccuracy >= 85
+                    ? "A beautiful session. Your recall looked sharp and confident."
+                    : doneAccuracy >= 60
+                      ? "A solid session. A quick revisit of the misses will make this even stronger."
+                      : "A useful session to learn from. Another calm revision round will help lock this in."}
+                </p>
+                <div className="done-stat-grid">
+                  {[
+                    { label: "Correct", value: doneCorrect, color: "var(--correct)" },
+                    { label: "Incorrect", value: doneWrong, color: "var(--wrong)" },
+                    { label: "Attempted", value: doneCorrect + doneWrong, color: "var(--pink)" },
+                    { label: "Left", value: Math.max(doneTotal - (doneCorrect + doneWrong), 0), color: "var(--lavender)" },
+                  ].map((item) => (
+                    <div key={item.label} className="done-stat-card">
+                      <div className="done-stat-value" style={{ color: item.color }}>{item.value}</div>
+                      <div className="done-stat-label">{item.label}</div>
+                    </div>
+                  ))}
+                </div>
+                <p>{att.size} of {totalQ} total questions done so far.</p>
                 <div className="done-acts">
-                  <button className="btn-primary" onClick={()=>setShowSetup(true)}>New Session 💕</button>
+                  {continueSession&&<button className="btn-sec" onClick={handleContinueIncompleteSession}>Continue Incomplete Session</button>}
+                  <button className="btn-primary" onClick={()=>setShowSetup(true)}>Start New Session</button>
                   <button className="btn-sec" onClick={()=>setTab("dashboard")}>Dashboard</button>
                   {wrongIds.size>0&&<button className="btn-sec" onClick={()=>setTab("wrong")}>Mistakes</button>}
                 </div>
               </div>
             )}
 
-            {sessionActive&&!isDone&&currentQ&&(
+            {!doneSession&&sessionActive&&!isDone&&currentQ&&(
               <>
                 {sess?.isMock&&(
                   <div className="timer-bar" style={{maxWidth:680,width:"100%"}}>
@@ -1284,45 +1466,7 @@ export default function NorcetMCQApp() {
                     </div>
                   )}
                   {answered&&loveFeedback&&<div className="love-feedback">{loveFeedback}</div>}
-                  {explanationMeta&&(
-                    <div className="explanation">
-                      <div className="explanation-head">
-                        <strong>Why This Is Right</strong>
-                        <span className="explanation-chip">Precise</span>
-                      </div>
-                      <div className="explanation-main">
-                        {explanationMeta.answerText && (
-                          <div className="explanation-kicker">Correct Answer</div>
-                        )}
-                        {explanationMeta.answerText && (
-                          <div className="explanation-answer-row">
-                            <span className="explanation-answer-badge">{currentQ.answer}</span>
-                            <span className="explanation-answer">{currentQ.options[currentQ.answer]}</span>
-                          </div>
-                        )}
-                        <div className="explanation-note explanation-note-main">{explanationMeta.primary}</div>
-                        {explanationMeta.detail && <div className="explanation-note">{explanationMeta.detail}</div>}
-                        {explanationMeta.imageHint && <div className="explanation-note explanation-note-hint">{explanationMeta.imageHint}</div>}
-                      </div>
-                      {explanationMeta.whyNotCards?.length > 0 && (
-                        <div className="explanation-why-not">
-                          <div className="explanation-subhead">Why Not The Others</div>
-                          {explanationMeta.whyNotCards.map((item, index) => (
-                            <div key={`${currentQ.id}-why-not-${index}`} className="explanation-option-card">
-                              <span className="explanation-option-badge">{item.label}</span>
-                              <span className="explanation-option-copy">
-                                <span className="explanation-option-topline">
-                                  <span className="explanation-option-title">{item.title}</span>
-                                  {item.tag && <span className="explanation-option-tag">{item.tag}</span>}
-                                </span>
-                                {item.body && <span className="explanation-option-line">{item.body}</span>}
-                              </span>
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  )}
+                  {explanationMeta && renderExplanationCard(currentQ, explanationMeta, "practice")}
                   {answered&&(
                     <button className="nbtn" onClick={handleNext}>
                       {sessIdx+1>=sessTotal?"Finish Session 🌸":"Next Question →"}
@@ -1382,7 +1526,10 @@ export default function NorcetMCQApp() {
                       );
                     })}
                   </div>
-                  {formatExplanation(q)&&<div className="r-expl"><strong>💡 Explanation</strong>{formatExplanation(q)}</div>}
+                  {(() => {
+                    const mistakeExplanationMeta = getExplanationMeta(q);
+                    return mistakeExplanationMeta ? renderExplanationCard(q, mistakeExplanationMeta, "mistake") : null;
+                  })()}
                   {!q.answer&&<div className="r-no-ans">ℹ️ No answer key</div>}
                 </div>
               );

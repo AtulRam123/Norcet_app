@@ -1,0 +1,508 @@
+Last explained index: 1441
+Total missing: 166
+
+missing_answer: 0
+empty_options: 0
+likely_not_reached_yet: 1
+likely_failed_generation: 165
+
+Details:
+
+[130] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Where to look for pre ductal oxygen saturation in PDA in 3min born infant?
+
+[499] likely_failed_generation_or_validator_rejection | answer=A | options=4
+I.O.C for acute myeloblastic leukaemia
+
+[566] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following main cause of high-pressure alarm?
+
+[567] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following most common side effects of synchronised intermittent mandatory ventilation (SIMV)?
+
+[569] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following is weaning mode of ventilation except
+
+[570] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Higher PEEP is indicated in
+
+[572] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A patient with Road traffic accident admitted in ICU having severe head injury and report show GCS score 6, initial mode of ventilator used is
+
+[573] likely_failed_generation_or_validator_rejection | answer=A | options=4
+First antibody appears against hep.B
+
+[589] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The drug administered to keep Patent ductus arteriosus
+
+[599] likely_failed_generation_or_validator_rejection | answer=A | options=4
+According to psychosexual theory of development, disorder develop as if fixation occurs in ORAL STAGE?
+
+[601] likely_failed_generation_or_validator_rejection | answer=A | options=4
+According to jean Piaget’s Cognitive therapy of development, in which stage abstract thinking developed?
+
+[609] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Most common cause of shock in trauma
+
+[632] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Most popular media for mass education for general public is?
+
+[661] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Golden rice is rich source of
+
+[665] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Epidemiological indicator of anaemia
+
+[670] likely_failed_generation_or_validator_rejection | answer=A | options=4
+According to NABH protocol, Retention Period for OPD Data
+
+[675] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Current recommendation for school health checkup is?
+
+[679] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A person hearing voices that someone commentary his actions known as
+
+[685] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Rate of suicide in schizophrenia (%)
+
+[687] likely_failed_generation_or_validator_rejection | answer=A | options=4
+which of the following factors increase risk of breast cancer except
+
+[702] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Theory of abiogenesis is disapproved by?
+
+[707] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following diseases is an example of Type V hypersensitivity reaction?
+
+[712] likely_failed_generation_or_validator_rejection | answer=A | options=4
+According to latest BMW guidelines, Soiled gloves should be discarded in which colour bag?
+
+[715] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Most common disease occurs in disaster is
+
+[716] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The theory which intends to provide a unifying focus for approaching a wide range of nursing concerns and for understanding fundamental nursing phenomena: the client, the environment, health, and nursing?
+
+[717] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Storage time period for Platelet is?
+
+[722] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which Of the following is arrhythmias seen due to adverse effect of digitalis?
+
+[727] likely_failed_generation_or_validator_rejection | answer=A | options=4
+D.O.C for Parkinson's disease is.................
+
+[728] likely_failed_generation_or_validator_rejection | answer=A | options=4
+D.O.C for drug induced Parkinsonism is............................
+
+[754] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Late feature of kernicterus included all EXCEPT:
+
+[782] likely_failed_generation_or_validator_rejection | answer=A | options=4
+M/C site for adenocarcinoma in pancreas is ___.
+
+[784] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Best parameter to determine duration of pregnancy in first trimester is ____.
+
+[793] likely_failed_generation_or_validator_rejection | answer=A | options=4
+What is another name for the primary visual cortex (V1)?
+
+[796] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following statements about the apneustic and pneumotaxic centers in the brainstem is correct?
+
+[798] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Most common method of suicide is?
+
+[808] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Q. According to latest BMW guidelines, Shoe cover and mask is discarded in which colour of Bag
+
+[810] likely_failed_generation_or_validator_rejection | answer=A | options=4
+ECG electrode is discarded in which colour BMW bag
+
+[819] likely_failed_generation_or_validator_rejection | answer=A | options=4
+In ICD11 "mental, behavioural or neurodevelopmental d/o " is classified under chapter no. ___ .
+
+[823] likely_failed_generation_or_validator_rejection | answer=A | options=4
+D.O.C for stable angina pectoris
+
+[825] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Major ion of Ecf and icf is respectively
+
+[834] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following is true regarding the relationship between digoxin toxicity and potassium levels?
+
+[837] likely_failed_generation_or_validator_rejection | answer=D | options=4
+The length of incision is "x" then required length of suture is?
+
+[848] likely_failed_generation_or_validator_rejection | answer=A | options=4
+According to the Haldane effect, deoxygenated haemoglobin has:
+
+[852] likely_failed_generation_or_validator_rejection | answer=A | options=4
+most common cause of heart failure is
+
+[858] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Master regulator of immune system is
+
+[861] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following is most heat sensitive vaccine is
+
+[870] likely_failed_generation_or_validator_rejection | answer=A | options=4
+For PCOD choose the right statement
+
+[872] likely_failed_generation_or_validator_rejection | answer=A | options=4
+In condition of GDM with uncontrolled blood sugar level, NST test done at frequency of
+
+[900] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Greenish amniotic fluid indicates
+
+[908] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following parameter of respiratory is increased during pregnancy?
+
+[911] likely_failed_generation_or_validator_rejection | answer=A | options=4
+In "GTPAL" score, the "P" indicate?
+
+[926] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Definitive host of leptospirosis is
+
+[933] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Poshan Abhiyaan comes under which ministry
+
+[934] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Max. Reabsorption of urea occur in which segment of nephron?
+
+[935] likely_failed_generation_or_validator_rejection | answer=D | options=4
+Transport maximum for glucose in male is ...... (Mg/dl).
+
+[940] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following stage of labour is termed as max. Duration stage.
+
+[942] likely_failed_generation_or_validator_rejection | answer=A | options=4
+If mother 's indirect coomb test is negative during pregnancy, then what measure should be followed as antepartum prophylaxis?
+
+[945] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Pulmonary hypertension is defined as means pulmonary artery pressure more then (mmhg)
+
+[950] likely_failed_generation_or_validator_rejection | answer=A | options=4
+PELD score is used for
+
+[974] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following is not component of Mangled extremity severity score
+
+[977] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following is dura Cutting needle is
+
+[982] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following anti T.B drug is most hepatotoxic
+
+[983] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Benchmark disability is ........... Percent Under the RPWD ACT
+
+[984] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Father of Indian medicine is
+
+[987] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Most common cause of pneumonia in copd patient with history of smoking
+
+[994] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Most common antenatal manifestation of TORCH infection
+
+[999] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Most common mental disorder in India is
+
+[1002] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Most common cause of female infertility is
+
+[1003] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Measurement of exhaled CO2 is known as
+
+[1004] likely_failed_generation_or_validator_rejection | answer=A | options=4
+ARISCAT scoring is done to assess
+
+[1005] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Normal clotting time(min) and PT (sec) is respectively
+
+[1006] likely_failed_generation_or_validator_rejection | answer=D | options=4
+Which of the following typical antipsychotic drug have min. EPS
+
+[1008] likely_failed_generation_or_validator_rejection | answer=C | options=4
+According to latest NIS delay schedule hep.b vaccine can be administered up to
+
+[1010] likely_failed_generation_or_validator_rejection | answer=D | options=4
+What is DASH?
+
+[1013] likely_failed_generation_or_validator_rejection | answer=D | options=4
+Nitrogen gas present in .............. Colour cylinder
+
+[1035] likely_failed_generation_or_validator_rejection | answer=A | options=4
+In surgical patients’ malnutrition is best assessed by
+
+[1045] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Must have criteria for diagnosis of PARKINSON disease is
+
+[1047] likely_failed_generation_or_validator_rejection | answer=B | options=4
+Which of the following is not included in diagnostic criteria of classical migraine
+
+[1050] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Post operative obese patients are having sudden onset breathing difficulty on day 3 with Elevation of JVP. What will nurse suspect?
+
+[1057] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Leading cause of tension pneumothorax
+
+[1059] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Decision to add steroids in asthma is based on
+
+[1061] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Who coined term anaesthesia?
+
+[1062] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A 40-year-old man with a history of intravenous drug use presents with low-grade fever, new regurgitant murmur, and splinter haemorrhages on the nails. Which is the most probable diagnosis?
+
+[1072] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Ash-leaf spots are a hallmark cutaneous manifestation of which of the following diseases?
+
+[1078] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following is used for remote medical consultation in India?
+
+[1081] likely_failed_generation_or_validator_rejection | answer=A | options=4
+In the cold chain storage equipment, which vaccine should be placed at the lowest level in the ice lined refrigerator (ILR)?
+
+[1085] likely_failed_generation_or_validator_rejection | answer=A | options=4
+During surgery OPD, a child was brought with the following condition of the right ear. What is the correct time for correction?
+
+[1088] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A female patient with a history of gastrectomy 10 months ago presents for evaluation of cataract. The oral finding shown. What is the cause?
+
+[1089] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Probability of malignancy if BIRADS score is 3
+
+[1098] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Truelove and Witts classification system is used in which of the following?
+
+[1102] likely_failed_generation_or_validator_rejection | answer=A | options=4
+How does a skin graft get nutrition on day 3?
+
+[1109] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Occupation lung disease anthracosis is caused by?
+
+[1114] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Ranitidine (zantac) is
+
+[1124] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A pulmonary embolism is suspected in a patient after an abdominal surgery, where did the patient's embolism most likely originate?
+
+[1125] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A COPD patient suspected for spontaneous pneumothorax what is expected action should the nurse take first?
+
+[1126] likely_failed_generation_or_validator_rejection | answer=D | options=4
+What is the instruction are essential for the nurse to include in education if patient has systemic lupus erythematosus (SLE)?
+
+[1133] likely_failed_generation_or_validator_rejection | answer=A | options=3
+A 2-year-old is hospitalized with suspected intussusception. Which finding is associated with intussusception?
+
+[1135] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A high concentration of estrogen in blood:
+
+[1147] likely_failed_generation_or_validator_rejection | answer=A | options=4
+In weber's test, lateralisation of sound to diseased ear indicates:
+
+[1151] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Formation of pustule in the area of eyelashes follicle is called.......
+
+[1160] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A patient with a suspected diagnosis of cataract. Which of the following chief clinical manifestation in the early stages of cataract?
+
+[1170] likely_failed_generation_or_validator_rejection | answer=B | options=4
+Information given by the sufferer about his illness:
+
+[1177] likely_failed_generation_or_validator_rejection | answer=A | options=4
+It also prevents the amnion from adhering to the fetus. The placenta produces which hormone?
+
+[1178] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The pituitary hormone that stimulates the secretion of milk from the mammary glands is:
+
+[1179] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The menstruation bleeding is the result of sloughing of which structure?
+
+[1180] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following direction use by nurse for pulls the tissue during administer a z-track method injection?
+
+[1185] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following microorganisms stain well?
+
+[1191] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following pioneers of Microbiology is credited with the discovery of microorganisms using high quality magnifying lenses (early microscopes)?
+
+[1207] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following hormone is not secreted by anterior pituitary?
+
+[1211] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Mycology is the study of
+
+[1213] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following assessment finding is indication of a serious head injury in a patient who had motor vehicle accidents?
+
+[1216] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A patient with a diagnosis of benign prostatic hyperplasia. Which of the following information about the patient is important consider by nurse during care of patient?
+
+[1219] likely_failed_generation_or_validator_rejection | answer=D | options=4
+What is the primary purpose of pursed-lip breathing?
+
+[1223] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following clinical feature is the initial sign of Parkinson's disease?
+
+[1225] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following assessment indicates patient has spinal shock?
+
+[1227] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following common clinical manifestation of colitis?
+
+[1228] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following clinical indicator should the nurse assess in patient cirrhosis of the liver?
+
+[1235] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A patient is planned for adrenalectomy. Which of the following intervention should the nurse expected will be ordered by physician for this patient?
+
+[1236] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following dysrhythmias is most likely to occur during suctioning?
+
+[1237] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The nurse is caring for a client after a tracheostomy procedure. The client is anxious, with a respiratory rate of 32 and an oxygen saturation of 88. The nurse's first action should be to:
+
+[1243] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The nurse should assess a client who has a peptic ulcer for signs of bleeding. Which symptom would best indicate this complication?
+
+[1245] likely_failed_generation_or_validator_rejection | answer=A | options=4
+When assessing the client with celiac disease the nurse can expect to find which of the following?
+
+[1247] likely_failed_generation_or_validator_rejection | answer=A | options=4
+For which of the following substances should a nurse test to determine if nasal drainage contains Cerebro-spinal fluid (CSF)?
+
+[1248] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following strategy is not essential in preventing pressure injuries?
+
+[1252] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A patient returns to the unit following the surgical creation of a double-barrel colostomy. Which type of drainage from the patient's bowel would a nurse expect to find postoperatively?
+
+[1253] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Nurse developing a care plan of a patient with hepatic encephalopathy. Which of the following nurse include?
+
+[1254] likely_failed_generation_or_validator_rejection | answer=D | options=4
+What are the clinical indicators that a nurse should identify when an IV has infiltrated?
+
+[1258] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which of the following symptoms is most commonly associated with Cardiac overload?
+
+[1261] likely_failed_generation_or_validator_rejection | answer=A | options=4
+When administering eye drops, in which anatomic location should the nurse, apply the drops?
+
+[1270] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which nursing action is most appropriate immediately following the removal of a Nasogastric tube?
+
+[1278] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Intra-uterine device prevents pregnancy by the :
+
+[1279] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Clients with gestational diabetes are usually managed by which of the following therapies?
+
+[1281] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Normal lochia findings in the first 24 hours post-delivery include:
+
+[1288] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which findings are most indicative of abruption placenta and should be reported to the physician immediately?
+
+[1297] likely_failed_generation_or_validator_rejection | answer=A | options=4
+When should the nurse begin prepare multiparous client for delivery?
+
+[1304] likely_failed_generation_or_validator_rejection | answer=A | options=4
+What is the risk of smoking during pregnancy?
+
+[1309] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which fetal heart rate must the nurse report immediately to the physician?
+
+[1311] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Papanicolaou smear is usually done to determine cancer of
+
+[1313] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The nurse correctly explains that fertilization usually takes place in which structure?
+
+[1318] likely_failed_generation_or_validator_rejection | answer=A | options=4
+When teaching parents about childhood depression Nurse should say?
+
+[1319] likely_failed_generation_or_validator_rejection | answer=A | options=4
+A nurse's best approach when caring for a confused, older client is to provide an environment with:
+
+[1322] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The nurse considers a client's response to crisis intervention successful if the client:
+
+[1325] likely_failed_generation_or_validator_rejection | answer=A | options=4
+What type of diet is restricted in renal Failure:
+
+[1332] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Another name for Vitamin B1 is:
+
+[1336] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Cold chain is used for
+
+[1348] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Birth weight triples by the end of the first:
+
+[1352] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which following group is closest to tribe?
+
+[1354] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The word "Sociology" is derived from:
+
+[1355] likely_failed_generation_or_validator_rejection | answer=A | options=4
+"Man is a social animal" said by
+
+[1358] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which one is a DNA virus
+
+[1361] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which substance is used in Fumigation?
+
+[1374] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The primary function of the ascending loop of Henle in the kidney is?
+
+[1393] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which drug is used to maintain central venous pressure (CVP) during procedures?
+
+[1396] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which sign is present in hepatic coma?
+
+[1400] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Which pathophysiological change is seen in pleurisy?
+
+[1402] likely_failed_generation_or_validator_rejection | answer=A | options=4
+An inherited sex-linked bleeding disorder is:
+
+[1404] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Alpha-1 antitrypsin deficiency leads to:
+
+[1406] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Sickle cell anemia is:
+
+[1407] likely_failed_generation_or_validator_rejection | answer=A | options=4
+In suprapubic prostatectomy, the gland is approached through the:
+
+[1412] likely_failed_generation_or_validator_rejection | answer=C | options=4
+In a patient with severe burns of the upper torso, the priority concern is:
+
+[1414] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Allopurinol is used in the treatment of:
+
+[1418] likely_failed_generation_or_validator_rejection | answer=A | options=4
+Most ear infections spread from the throat via the:
+
+[1420] likely_failed_generation_or_validator_rejection | answer=A | options=4
+First aid for a child during a convulsion includes:
+
+[1429] likely_failed_generation_or_validator_rejection | answer=B | options=4
+The drug of choice for warfarin overdose?
+
+[1433] likely_failed_generation_or_validator_rejection | answer=A | options=4
+The earliest sign of placental separation is:
+
+[1442] likely_not_reached_in_generation_run | answer=A | options=4
+Which spinal cord injury has the best prognosis for return of function?
+

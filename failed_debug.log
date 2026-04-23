@@ -1,0 +1,9 @@
+idx=569	reason=wrong option coverage mismatch: expected ['B', 'C', 'D'], got ['B']	question=Which of the following is weaning mode of ventilation except
+idx=848	reason=wrong option coverage mismatch: expected ['B', 'C', 'D'], got ['B', 'D']	question=According to the Haldane effect, deoxygenated haemoglobin has:
+idx=1059	reason=wrong option coverage mismatch: expected ['B', 'C', 'D'], got ['A', 'B', 'D']	question=Decision to add steroids in asthma is based on
+idx=1085	reason=contains banned template text	question=During surgery OPD, a child was brought with the following condition of the right ear. What is the correct time for correction?
+idx=1278	reason=wrong option coverage mismatch: expected ['B', 'C', 'D'], got ['A', 'B', 'D']	question=Intra-uterine device prevents pregnancy by the :
+idx=1278	reason=wrong option coverage mismatch: expected ['B', 'C', 'D'], got ['A', 'B', 'D']	question=Intra-uterine device prevents pregnancy by the :
+idx=1278	reason=wrong option coverage mismatch: expected ['B', 'C', 'D'], got ['A', 'B', 'D']	question=Intra-uterine device prevents pregnancy by the :
+idx=1358	reason=wrong option coverage mismatch: expected ['B', 'C', 'D'], got ['B', 'C']	question=Which one is a DNA virus
+idx=1358	reason=wrong option coverage mismatch: expected ['B', 'C', 'D'], got ['A', 'B', 'D']	question=Which one is a DNA virus
