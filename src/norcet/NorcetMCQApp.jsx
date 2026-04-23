@@ -345,7 +345,7 @@ export default function NorcetMCQApp() {
           <span className="explanation-toggle-icon" aria-hidden="true">{isExpanded ? "−" : "+"}</span>
         </button>
         {isExpanded && (
-          <>
+          <div className="explanation-body">
             <div className="explanation-head">
               <strong>Why This Is Right</strong>
               <span className="explanation-chip">Precise</span>
@@ -381,7 +381,7 @@ export default function NorcetMCQApp() {
                 ))}
               </div>
             )}
-          </>
+          </div>
         )}
       </div>
     );
@@ -1341,7 +1341,7 @@ export default function NorcetMCQApp() {
       {tab==="practice" && (
         <div className="page">
           <div className="pshell">
-            {!sess && (
+            {!sess && !doneSession && (
               <div className="ready-card">
                 <div style={{fontSize:"3.2rem",marginBottom:8}}>💕</div>
                 <h2>Ready to Practice?</h2>
@@ -1403,11 +1403,13 @@ export default function NorcetMCQApp() {
                   ))}
                 </div>
                 <p>{att.size} of {totalQ} total questions done so far.</p>
-                <div className="done-acts">
-                  {continueSession&&<button className="btn-sec" onClick={handleContinueIncompleteSession}>Continue Incomplete Session</button>}
-                  <button className="btn-primary" onClick={()=>setShowSetup(true)}>Start New Session</button>
-                  <button className="btn-sec" onClick={()=>setTab("dashboard")}>Dashboard</button>
-                  {wrongIds.size>0&&<button className="btn-sec" onClick={()=>setTab("wrong")}>Mistakes</button>}
+                <div className={`done-acts ${continueSession ? "has-continue" : "no-continue"} ${wrongIds.size>0 ? "has-mistakes" : "no-mistakes"}`}>
+                  {continueSession&&<button className="btn-sec btn-continue" onClick={handleContinueIncompleteSession}>Continue Incomplete Session</button>}
+                  <button className={`btn-primary ${continueSession ? "" : "btn-primary-wide"}`} onClick={()=>setShowSetup(true)}>Start New Session</button>
+                  <div className="btn-tertiary-row">
+                    <button className="btn-sec btn-tertiary" onClick={()=>setTab("dashboard")}>Dashboard</button>
+                    {wrongIds.size>0&&<button className="btn-sec btn-tertiary" onClick={()=>setTab("wrong")}>Mistakes</button>}
+                  </div>
                 </div>
               </div>
             )}
@@ -1426,7 +1428,7 @@ export default function NorcetMCQApp() {
                   <div className="p-track"><div className="p-fill" style={{width:`${sessPct}%`}}/></div>
                   <div className="p-acc">{sessAcc>0?`${sessAcc}%`:"0%"}</div>
                 </div>
-                <div className="qcard" key={`${sessIdx}-${currentQ.id}`}>
+                <div className={`qcard ${answered ? "is-answered" : ""}`} key={`${sessIdx}-${currentQ.id}`}>
                   <div className="qcard-top">
                     <div className={`qtag ${sess?.isMock?"mock-qtag":""}`}>{sess?.isMock?"⏱ Mock":"Practice"} · Q{sessIdx+1}/{sessTotal}</div>
                     <div className="qmeta">
